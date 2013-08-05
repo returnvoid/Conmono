@@ -1,1 +1,1 @@
-include ':Conmono'
+include ':libraries:facebook',  ':Conmono'

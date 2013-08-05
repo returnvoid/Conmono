@@ -4,6 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Conmono/Conmono.iml" filepath="$PROJECT_DIR$/Conmono/Conmono.iml" />
       <module fileurl="file://$PROJECT_DIR$/ConmonoProject.iml" filepath="$PROJECT_DIR$/ConmonoProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/facebook/build/source/buildConfig/buildConfig.iml" filepath="$PROJECT_DIR$/libraries/facebook/build/source/buildConfig/buildConfig.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/facebook/facebook.iml" filepath="$PROJECT_DIR$/libraries/facebook/facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libraries/facebook/build/source/r/r.iml" filepath="$PROJECT_DIR$/libraries/facebook/build/source/r/r.iml" />
     </modules>
   </component>
 </project>

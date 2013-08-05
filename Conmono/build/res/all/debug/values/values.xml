@@ -1,13 +1,129 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings_activity_settings.xml -->
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/colors.xml -->
+    <color name="cl_returnvoid_mypic_grey">#eae7e7</color>
+    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values/values.xml -->
+    <color name="com_facebook_blue">#3B5998</color>
+    <color name="com_facebook_loginview_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_connected_shadow_color">#000000</color>
+    <color name="com_facebook_usersettingsfragment_connected_text_color">#FFFFFF</color>
+    <color name="com_facebook_usersettingsfragment_not_connected_text_color">#A6AED7</color>
+
+    <declare-styleable name="com_facebook_friend_picker_fragment">
+        <attr name="multi_select" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="com_facebook_login_view">
+        <attr name="confirm_logout" format="boolean" />
+        <attr name="fetch_user_info" format="boolean" />
+        <attr name="login_text" format="string" />
+        <attr name="logout_text" format="string" />
+    </declare-styleable>
+    <declare-styleable name="com_facebook_picker_fragment">
+        <attr name="show_pictures" format="boolean" />
+        <attr name="extra_fields" format="string" />
+        <attr name="show_title_bar" format="boolean" />
+        <attr name="title_text" format="string" />
+        <attr name="done_button_text" format="string" />
+        <attr name="title_bar_background" format="reference" />
+        <attr name="done_button_background" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="com_facebook_place_picker_fragment">
+        <attr name="radius_in_meters" format="integer" />
+        <attr name="results_limit" format="integer" />
+        <attr name="search_text" format="string" />
+        <attr name="show_search_box" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="com_facebook_profile_picture_view">
+        <attr name="preset_size">
+
+            <!-- Keep in sync with constants in ProfilePictureView -->
+            <enum name="small" value="-2" />
+            <enum name="normal" value="-3" />
+            <enum name="large" value="-4" />
+        </attr>
+        <attr name="is_cropped" format="boolean" />
+    </declare-styleable>
     <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values/values.xml -->
+    <dimen name="com_facebook_loginview_height">44dp</dimen>
+    <dimen name="com_facebook_loginview_padding_bottom">0dp</dimen>
+    <dimen name="com_facebook_loginview_padding_left">42dp</dimen>
+    <dimen name="com_facebook_loginview_padding_right">0dp</dimen>
+    <dimen name="com_facebook_loginview_padding_top">0dp</dimen>
+    <dimen name="com_facebook_loginview_text_size">16.0sp</dimen>
+    <dimen name="com_facebook_loginview_width">205dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_large">180dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_normal">100dp</dimen>
+    <dimen name="com_facebook_profilepictureview_preset_size_small">50dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_height">64dp</dimen>
+    <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
     <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
-    <string name="app_name">Conmono</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="app_id">107309112809134</string>
+    <string name="app_name">MyPic</string>
+    <string name="apply_effect_label_button">Apply Effect</string>
+    <string name="apply_text_label_button">Apply Text</string>
+    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values/values.xml -->
+    <string name="com_facebook_choose_friends">Choose Friends</string>
+    <string name="com_facebook_dialogloginactivity_ok_button">OK</string>
+    <string name="com_facebook_internet_permission_error_message">WebView login requires INTERNET permission</string>
+    <string name="com_facebook_internet_permission_error_title">AndroidManifest Error</string>
+    <string name="com_facebook_loading">Loading...</string>
+    <string name="com_facebook_loginview_cancel_action">Cancel</string>
+    <string name="com_facebook_loginview_log_in_button">Log In</string>
+    <string name="com_facebook_loginview_log_out_action">Log Out</string>
+    <string name="com_facebook_loginview_log_out_button">Log Out</string>
+    <string name="com_facebook_loginview_logged_in_as">Logged in as: %1$s</string>
+    <string name="com_facebook_loginview_logged_in_using_facebook">Logged in using Facebook</string>
+    <string name="com_facebook_logo_content_description">Facebook Logo</string>
+    <string name="com_facebook_nearby">Nearby</string>
+    <string name="com_facebook_picker_done_button_text">Done</string>
+    <string name="com_facebook_placepicker_subtitle_catetory_only_format">%1$s</string>
+    <string name="com_facebook_placepicker_subtitle_format">%1$s • %2$,d were here</string>
+    <string name="com_facebook_placepicker_subtitle_were_here_only_format">%1$,d were here</string>
+    <string name="com_facebook_requesterror_password_changed">Your Facebook password has changed. Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_permissions">This app doesn’t have permission to do this. To change permissions, try logging into the app again.</string>
+    <string name="com_facebook_requesterror_reconnect">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_relogin">Please log into this app again to reconnect your Facebook account.</string>
+    <string name="com_facebook_requesterror_web_login">Your Facebook account is locked. Please log into www.facebook.com to continue.</string>
+    <string name="com_facebook_usersettingsfragment_log_in_button">Log In…</string>
+    <string name="com_facebook_usersettingsfragment_logged_in">Logged In</string>
+    <string name="com_facebook_usersettingsfragment_not_logged_in">Not Logged In</string>
+    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings.xml -->
+    <string name="facebook_login_button_label">Login</string>
+    <string name="facebook_logout_button_label">Log out</string>
+    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings_activity_settings.xml -->
+    <string name="pref_description_enabled_option">Recommendations for people to contact based on your message history</string>
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_enabled_option">Enable social recommendations</string>
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings.xml -->
+    <string name="shutter_button">Tomar Foto</string>
+    <string name="title_activity_preview_camera">My Pic</string>
+    <string name="title_activity_process_image">Process Image</string>
+    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings_activity_settings.xml -->
+    <string name="title_activity_settings">Settings</string>
     <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/styles.xml -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
@@ -19,6 +135,30 @@
 
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="Orange_Button">
+        <item name="android:background">#ff8800</item>
+    </style>
+    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values/values.xml -->
+    <style name="com_facebook_loginview_default_style" parent="@android:style/Widget.Button">
+        <item name="android:width">@dimen/com_facebook_loginview_width</item>
+        <item name="android:height">@dimen/com_facebook_loginview_height</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_blue</item>
+        <item name="android:textColor">@color/com_facebook_loginview_text_color</item>
+        <item name="android:textSize">@dimen/com_facebook_loginview_text_size</item>
+        <item name="android:paddingLeft">@dimen/com_facebook_loginview_padding_left</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="com_facebook_loginview_silver_style" parent="@android:style/Widget.Button">
+        <item name="android:width">205dp</item>
+        <item name="android:height">44dp</item>
+        <item name="android:background">@drawable/com_facebook_loginbutton_silver</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#4B5164</item>
+        <item name="android:gravity">center</item>
     </style>
 
 </resources>
