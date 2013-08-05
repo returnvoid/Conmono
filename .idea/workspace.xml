@@ -10,8 +10,106 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="cl.ret" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9cf84a4f-86cd-4b50-b7ba-1d420a2df6c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GooglePlayServices/src/main/AndroidManifest.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conmono/Conmono-Conmono.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GooglePlayServices/GooglePlayServices.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PhotosMapFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GooglePlayServices/build.gradle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conmono/src/main/res/animator/collapse.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conmono/src/main/res/animator/expand.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_photos_map.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/google_play_services.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conmono/src/main/res/menu/photos_map.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GooglePlayServices/src/main/res/values/strings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v41.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_18_0_0.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/Conmono.iml" afterPath="$PROJECT_DIR$/Conmono/Conmono.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java" afterPath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/source/r/debug/cl/returnvoid/android/conmono/R.java" afterPath="$PROJECT_DIR$/Conmono/build/source/r/debug/cl/returnvoid/android/conmono/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/source/r/debug/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/Conmono/build/source/r/debug/com/facebook/android/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/source/r/release/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/libraries/facebook/build/source/r/release/com/facebook/android/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_preview_camera.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_preview_camera.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_process_image.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_process_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/android_support_v4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build.gradle" afterPath="$PROJECT_DIR$/Conmono/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build.gradle" afterPath="$PROJECT_DIR$/libraries/facebook/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_button_check.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_button_check.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_button_check.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_button_check.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_friendpickerfragment.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_friendpickerfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_friendpickerfragment.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_friendpickerfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_login_activity_layout.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_login_activity_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_login_activity_layout.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_login_activity_layout.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_loginbutton_blue.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_loginbutton_blue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_loginbutton_blue.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_loginbutton_blue.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_loginbutton_silver.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_loginbutton_silver.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_loginbutton_silver.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_loginbutton_silver.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_activity_circle_row.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_activity_circle_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_activity_circle_row.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_activity_circle_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_checkbox.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_checkbox.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_checkbox.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_image.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_image.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_picker_item_background.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_picker_item_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_picker_item_background.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_picker_item_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_list_row.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_list_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_list_row.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_list_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_list_section_header.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_list_section_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_list_section_header.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_list_section_header.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_picker_list_selector.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_picker_list_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_picker_list_selector.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_picker_list_selector.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_picker_list_selector_background_transition.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_picker_list_selector_background_transition.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_picker_list_selector_background_transition.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_picker_list_selector_background_transition.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_search_box.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_search_box.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_search_box.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_search_box.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_title_bar.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_title_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_title_bar.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_title_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_title_bar_stub.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_picker_title_bar_stub.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_title_bar_stub.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_picker_title_bar_stub.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_picker_top_button.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_picker_top_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_picker_top_button.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_picker_top_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_placepickerfragment.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_placepickerfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_placepickerfragment.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_placepickerfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_placepickerfragment_list_row.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_placepickerfragment_list_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_placepickerfragment_list_row.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_placepickerfragment_list_row.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_top_background.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_top_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_top_background.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_top_background.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_top_button.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_top_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_top_button.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_top_button.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_usersettingsfragment.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/com_facebook_usersettingsfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_usersettingsfragment.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/layout/com_facebook_usersettingsfragment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_usersettingsfragment_background_gradient.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/drawable/com_facebook_usersettingsfragment_background_gradient.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_usersettingsfragment_background_gradient.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/drawable/com_facebook_usersettingsfragment_background_gradient.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/facebook.iml" afterPath="$PROJECT_DIR$/libraries/facebook/facebook.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/fragment_preview_camera.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/fragment_preview_camera.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/menu/main.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/menu/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/xml/pref_data_sync.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/xml/pref_data_sync.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/xml/pref_general.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/xml/pref_general.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/xml/pref_headers.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/xml/pref_headers.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/menu/preview_camera.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/menu/preview_camera.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/menu/process_image.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/menu/process_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-es/values.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-es/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-he/values.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-he/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-iw/values.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-iw/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-sw720dp-land/values.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-sw720dp-land/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-v11/values.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-v11/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-v14/values.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/values-v14/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/values/values.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/values/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/values-es/values.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/values-es/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/values-he/values.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/values-he/values.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/values-iw/values.xml" afterPath="$PROJECT_DIR$/libraries/facebook/build/res/all/release/values-iw/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Conmono.iws" />
@@ -30,7 +128,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -67,6 +164,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -79,17 +177,60 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conmono/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="34" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+            <state line="6" column="13" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+              <folding>
+                <element signature="e#1210#1228#0" expanded="true" />
+                <element signature="e#1748#1781#0" expanded="true" />
+                <element signature="e#1926#1964#0" expanded="true" />
+                <element signature="e#2110#2149#0" expanded="true" />
+                <element signature="e#2475#2504#0" expanded="true" />
+                <element signature="e#2609#2644#0" expanded="true" />
+                <marker date="1375741262000" expanded="true" signature="2538:2553" placeholder="&quot;Process Image&quot;" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fragment_preview_camera.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml">
+          <provider editor-type-id="text-editor">
+            <state line="12" column="94" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="45" selection-start="828" selection-end="828" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="405">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PhotosMapFragment.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PhotosMapFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="50" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.42056075" vertical-offset="0" max-vertical-offset="840">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Conmono/build.gradle">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="1" selection-start="145" selection-end="145" vertical-scroll-proportion="0.25547445" vertical-offset="0" max-vertical-offset="570">
-              <folding />
+            <state line="53" column="32" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="2325">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,8 +251,41 @@
     </option>
   </component>
   <component name="GradleLocalSettings">
+    <option name="tasksExpandState">
+      <map>
+        <entry key="" value="true" />
+      </map>
+    </option>
     <option name="availableProjects">
       <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="Conmono" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="GooglePlayServices" />
+                <option name="path" value="$PROJECT_DIR$/GooglePlayServices" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="Conmono-Conmono" />
+                <option name="path" value="$PROJECT_DIR$/Conmono" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="facebook" />
+                <option name="path" value="$PROJECT_DIR$/libraries/facebook" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="Conmono" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
         <entry>
           <key>
             <ExternalProjectPojo>
@@ -140,29 +314,36 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1375709750000" />
+        <entry key="$PROJECT_DIR$" value="1375725343000" />
       </map>
     </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java" />
-        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java" />
-        <option value="$PROJECT_DIR$/Conmono/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/SettingsActivity.java" />
-        <option value="$PROJECT_DIR$/settings.gradle" />
-        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java" />
         <option value="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_preview_camera.xml" />
         <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/PreviewCameraActivity.java" />
+        <option value="$PROJECT_DIR$/libraries/facebook/build.gradle" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml" />
         <option value="$PROJECT_DIR$/Conmono/build.gradle" />
+        <option value="$PROJECT_DIR$/settings.gradle" />
+        <option value="$PROJECT_DIR$/GooglePlayServices/build.gradle" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/res/animator/collapse.xml" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/res/animator/expand.xml" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PhotosMapActivity.java" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_photos_map.xml" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PhotosMapFragment.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1280" />
-    <option name="height" value="774" />
+    <option name="width" value="2560" />
+    <option name="height" value="1414" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -190,8 +371,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,18 +387,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ConmonoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="Conmono" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ConmonoProject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Conmono" />
@@ -230,7 +401,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ConmonoProject" />
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -252,7 +445,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ConmonoProject" />
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -278,7 +475,79 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="ConmonoProject" />
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="animator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -302,6 +571,66 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -309,6 +638,7 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
@@ -316,14 +646,42 @@
     <property name="options.lastSelected" value="reference.settingsdialog.project.gant" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/libraries/facebook" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="0019b73a7e7d6e" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_One_by_Google" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
-  <component name="RunManager" selected="Android Application.Conmono">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="cl.returnvoid.android.conmono" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.Conmono-Conmono">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -395,8 +753,8 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Conmono" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="Conmono" />
+    <configuration default="false" name="Conmono-Conmono" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="Conmono-Conmono" />
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
@@ -414,7 +772,7 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Android Application.Conmono" />
+      <item index="0" class="java.lang.String" itemvalue="Android Application.Conmono-Conmono" />
     </list>
     <configuration name="&lt;template&gt;" type="TestNG" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
@@ -482,34 +840,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
+    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6712538" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32874617" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32874617" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.6004637" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3995363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995363" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843894" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.6712538" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940334" sideWeight="0.6004637" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -574,98 +932,135 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+    <entry file="file://$PROJECT_DIR$/ConmonoProject.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="55" selection-start="633" selection-end="633" vertical-scroll-proportion="0.196195" vertical-offset="0" max-vertical-offset="841">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/SettingsActivity.java">
+    <entry file="file://$PROJECT_DIR$/../MyApplicationProject/MyApplicationProject.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="10" selection-start="2545" selection-end="2545" vertical-scroll-proportion="1.6533546" vertical-offset="0" max-vertical-offset="3705">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
+        <state line="13" column="0" selection-start="493" selection-end="493" vertical-scroll-proportion="0.23186682" vertical-offset="0" max-vertical-offset="841">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="924" selection-end="924" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2430">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/activity_preview_camera.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="87" selection-start="369" selection-end="369" vertical-scroll-proportion="0.20477815" vertical-offset="0" max-vertical-offset="586">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/PreviewCameraActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="23" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1155">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libraries/facebook/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="176" selection-end="176" vertical-scroll-proportion="0.16773163" vertical-offset="0" max-vertical-offset="626">
+        <state line="32" column="1" selection-start="636" selection-end="636" vertical-scroll-proportion="0.6408545" vertical-offset="0" max-vertical-offset="749">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java">
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/values/strings_activity_settings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2925">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="839">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java">
+    <entry file="file://$PROJECT_DIR$/GooglePlayServices/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="50" selection-start="3334" selection-end="3334" vertical-scroll-proportion="1.4616613" vertical-offset="0" max-vertical-offset="2340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="626">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="34" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+        <state line="22" column="1" selection-start="361" selection-end="361" vertical-scroll-proportion="0.3933254" vertical-offset="0" max-vertical-offset="839">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conmono/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="1" selection-start="145" selection-end="145" vertical-scroll-proportion="0.25547445" vertical-offset="0" max-vertical-offset="570">
+        <state line="28" column="1" selection-start="510" selection-end="510" vertical-scroll-proportion="0.5607477" vertical-offset="0" max-vertical-offset="749">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml">
+      <provider editor-type-id="text-editor">
+        <state line="12" column="94" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="757" selection-end="757" vertical-scroll-proportion="0.28037384" vertical-offset="0" max-vertical-offset="749">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
+          <folding>
+            <element signature="e#1210#1228#0" expanded="true" />
+            <element signature="e#1748#1781#0" expanded="true" />
+            <element signature="e#1926#1964#0" expanded="true" />
+            <element signature="e#2110#2149#0" expanded="true" />
+            <element signature="e#2475#2504#0" expanded="true" />
+            <element signature="e#2609#2644#0" expanded="true" />
+            <marker date="1375741262000" expanded="true" signature="2538:2553" placeholder="&quot;Process Image&quot;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/animator/collapse.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="109" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/animator/expand.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="6" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_photos_map.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="0.3531856" vertical-offset="0" max-vertical-offset="722">
+          <folding>
+            <element signature="e#620#668#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="45" selection-start="828" selection-end="828" vertical-scroll-proportion="-10.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="32" selection-start="1946" selection-end="1946" vertical-scroll-proportion="0.0" vertical-offset="625" max-vertical-offset="2325">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PhotosMapFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="50" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.42056075" vertical-offset="0" max-vertical-offset="840">
           <folding />
         </state>
       </provider>
@@ -710,7 +1105,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>Android 4.2.2</last-edited>
+          <last-edited>Android 4.3 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -722,7 +1117,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ConmonoProject</last-edited>
+          <last-edited>GooglePlayServices</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -1,1 +1,1 @@
-include ':libraries:facebook',  ':Conmono'
+include ':libraries:facebook', ':Conmono', ':GooglePlayServices'

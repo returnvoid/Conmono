@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/libraries/facebook/res/values-es/strings.xml -->
+    <!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/libraries/facebook/res/values-es/strings.xml -->
     <string name="com_facebook_choose_friends">Elige Amigos</string>
     <string name="com_facebook_dialogloginactivity_ok_button">Aceptar</string>
     <string name="com_facebook_internet_permission_error_message">WebView inicio de sesión requiere permiso INTERNET</string>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values-he/values.xml -->
+    <!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoLibrariesFacebookUnspecified.aar/res/values-he/values.xml -->
     <string name="com_facebook_choose_friends">בחר חברים</string>
     <string name="com_facebook_dialogloginactivity_ok_button">אישור</string>
     <string name="com_facebook_internet_permission_error_message">ההתחברות לתצוגת אתר דורשת אישור אינטרנט</string>

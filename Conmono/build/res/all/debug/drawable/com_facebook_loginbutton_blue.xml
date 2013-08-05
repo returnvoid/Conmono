@@ -21,4 +21,4 @@
           android:drawable="@drawable/com_facebook_loginbutton_blue_focused" />
     <item android:drawable="@drawable/com_facebook_loginbutton_blue_normal" />
 </selector>
-<!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/libraries/facebook/res/drawable/com_facebook_loginbutton_blue.xml --><!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/drawable/com_facebook_loginbutton_blue.xml -->
+<!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/libraries/facebook/res/drawable/com_facebook_loginbutton_blue.xml --><!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoLibrariesFacebookUnspecified.aar/res/drawable/com_facebook_loginbutton_blue.xml -->

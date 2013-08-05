@@ -10,7 +10,7 @@
     <view
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            class="cl.returnvoid.mypic.fragments.PreviewCameraFragment$PreviewCamera"
+            class="cl.returnvoid.android.conmono.fragments.PreviewCameraFragment$PreviewCamera"
             android:id="@+id/preview_camera_view"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"

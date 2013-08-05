@@ -8,13 +8,57 @@
 package cl.returnvoid.android.conmono;
 
 public final class R {
+    public static final class animator {
+        public static final int collapse=0x7f040000;
+        public static final int expand=0x7f040001;
+    }
     public static final class array {
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings_activity_settings.xml 
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings_activity_settings.xml 
          */
-        public static final int pref_sync_frequency_titles=0x7f050000;
-        public static final int pref_sync_frequency_values=0x7f050001;
+        public static final int pref_sync_frequency_titles=0x7f060000;
+        public static final int pref_sync_frequency_values=0x7f060001;
     }
     public static final class attr {
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraBearing=0x7f010001;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLat=0x7f010002;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTargetLng=0x7f010003;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraTilt=0x7f010004;
+        /** <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int cameraZoom=0x7f010005;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -22,11 +66,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int confirm_logout=0x7f010001;
+        public static final int confirm_logout=0x7f01000f;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int done_button_background=0x7f01000b;
+        public static final int done_button_background=0x7f010019;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -34,7 +78,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int done_button_text=0x7f010009;
+        public static final int done_button_text=0x7f010017;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -42,7 +86,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int extra_fields=0x7f010006;
+        public static final int extra_fields=0x7f010014;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -50,7 +94,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int fetch_user_info=0x7f010002;
+        public static final int fetch_user_info=0x7f010010;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -58,7 +102,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int is_cropped=0x7f010011;
+        public static final int is_cropped=0x7f01001f;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -66,7 +110,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int login_text=0x7f010003;
+        public static final int login_text=0x7f010011;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -74,7 +118,21 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int logout_text=0x7f010004;
+        public static final int logout_text=0x7f010012;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+         */
+        public static final int mapType=0x7f010000;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -82,7 +140,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int multi_select=0x7f010000;
+        public static final int multi_select=0x7f01000e;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -94,7 +152,7 @@ containing a value of this type.
 <tr><td><code>large</code></td><td>-4</td><td></td></tr>
 </table>
          */
-        public static final int preset_size=0x7f010010;
+        public static final int preset_size=0x7f01001e;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -102,7 +160,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int radius_in_meters=0x7f01000c;
+        public static final int radius_in_meters=0x7f01001a;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -110,7 +168,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int results_limit=0x7f01000d;
+        public static final int results_limit=0x7f01001b;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -118,7 +176,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int search_text=0x7f01000e;
+        public static final int search_text=0x7f01001c;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -126,7 +184,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int show_pictures=0x7f010005;
+        public static final int show_pictures=0x7f010013;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -134,7 +192,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int show_search_box=0x7f01000f;
+        public static final int show_search_box=0x7f01001d;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -142,11 +200,11 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int show_title_bar=0x7f010007;
+        public static final int show_title_bar=0x7f010015;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
-        public static final int title_bar_background=0x7f01000a;
+        public static final int title_bar_background=0x7f010018;
         /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -154,40 +212,118 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int title_text=0x7f010008;
+        public static final int title_text=0x7f010016;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiCompass=0x7f010006;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiRotateGestures=0x7f010007;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiScrollGestures=0x7f010008;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiTiltGestures=0x7f010009;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomControls=0x7f01000a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int uiZoomGestures=0x7f01000b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int useViewLifecycle=0x7f01000c;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int zOrderOnTop=0x7f01000d;
     }
     public static final class color {
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/colors.xml 
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/colors.xml 
          */
-        public static final int cl_returnvoid_mypic_grey=0x7f060000;
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values/values.xml 
+        public static final int cl_returnvoid_mypic_grey=0x7f070000;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoLibrariesFacebookUnspecified.aar/res/values/values.xml 
          */
-        public static final int com_facebook_blue=0x7f060001;
-        public static final int com_facebook_loginview_text_color=0x7f060002;
-        public static final int com_facebook_usersettingsfragment_connected_shadow_color=0x7f060003;
-        public static final int com_facebook_usersettingsfragment_connected_text_color=0x7f060004;
-        public static final int com_facebook_usersettingsfragment_not_connected_text_color=0x7f060005;
+        public static final int com_facebook_blue=0x7f070001;
+        public static final int com_facebook_loginview_text_color=0x7f070002;
+        public static final int com_facebook_usersettingsfragment_connected_shadow_color=0x7f070003;
+        public static final int com_facebook_usersettingsfragment_connected_text_color=0x7f070004;
+        public static final int com_facebook_usersettingsfragment_not_connected_text_color=0x7f070005;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values/values.xml 
+         */
+        public static final int common_action_bar_splitter=0x7f070006;
+        public static final int common_signin_btn_dark_text_default=0x7f070007;
+        public static final int common_signin_btn_dark_text_disabled=0x7f070008;
+        public static final int common_signin_btn_dark_text_focused=0x7f070009;
+        public static final int common_signin_btn_dark_text_pressed=0x7f07000a;
+        public static final int common_signin_btn_default_background=0x7f07000b;
+        public static final int common_signin_btn_light_text_default=0x7f07000c;
+        public static final int common_signin_btn_light_text_disabled=0x7f07000d;
+        public static final int common_signin_btn_light_text_focused=0x7f07000e;
+        public static final int common_signin_btn_light_text_pressed=0x7f07000f;
+        public static final int common_signin_btn_text_dark=0x7f070010;
+        public static final int common_signin_btn_text_light=0x7f070011;
     }
     public static final class dimen {
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/dimens.xml 
- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values-sw720dp-land/dimens.xml 
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/dimens.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values-sw720dp-land/dimens.xml 
          */
-        public static final int activity_horizontal_margin=0x7f080000;
-        public static final int activity_vertical_margin=0x7f080001;
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values/values.xml 
+        public static final int activity_horizontal_margin=0x7f090000;
+        public static final int activity_vertical_margin=0x7f090001;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoLibrariesFacebookUnspecified.aar/res/values/values.xml 
          */
-        public static final int com_facebook_loginview_height=0x7f080002;
-        public static final int com_facebook_loginview_padding_bottom=0x7f080003;
-        public static final int com_facebook_loginview_padding_left=0x7f080004;
-        public static final int com_facebook_loginview_padding_right=0x7f080005;
-        public static final int com_facebook_loginview_padding_top=0x7f080006;
-        public static final int com_facebook_loginview_text_size=0x7f080007;
-        public static final int com_facebook_loginview_width=0x7f080008;
-        public static final int com_facebook_profilepictureview_preset_size_large=0x7f080009;
-        public static final int com_facebook_profilepictureview_preset_size_normal=0x7f08000a;
-        public static final int com_facebook_profilepictureview_preset_size_small=0x7f08000b;
-        public static final int com_facebook_usersettingsfragment_profile_picture_height=0x7f08000c;
-        public static final int com_facebook_usersettingsfragment_profile_picture_width=0x7f08000d;
+        public static final int com_facebook_loginview_height=0x7f090002;
+        public static final int com_facebook_loginview_padding_bottom=0x7f090003;
+        public static final int com_facebook_loginview_padding_left=0x7f090004;
+        public static final int com_facebook_loginview_padding_right=0x7f090005;
+        public static final int com_facebook_loginview_padding_top=0x7f090006;
+        public static final int com_facebook_loginview_text_size=0x7f090007;
+        public static final int com_facebook_loginview_width=0x7f090008;
+        public static final int com_facebook_profilepictureview_preset_size_large=0x7f090009;
+        public static final int com_facebook_profilepictureview_preset_size_normal=0x7f09000a;
+        public static final int com_facebook_profilepictureview_preset_size_small=0x7f09000b;
+        public static final int com_facebook_usersettingsfragment_profile_picture_height=0x7f09000c;
+        public static final int com_facebook_usersettingsfragment_profile_picture_width=0x7f09000d;
     }
     public static final class drawable {
         public static final int com_facebook_button_check=0x7f020000;
@@ -221,44 +357,73 @@ containing a value of this type.
         public static final int com_facebook_top_background=0x7f02001c;
         public static final int com_facebook_top_button=0x7f02001d;
         public static final int com_facebook_usersettingsfragment_background_gradient=0x7f02001e;
-        public static final int ic_launcher=0x7f02001f;
-        public static final int umbrella=0x7f020020;
-        public static final int yellow_button_active=0x7f020021;
+        public static final int common_signin_btn_icon_dark=0x7f02001f;
+        public static final int common_signin_btn_icon_disabled_dark=0x7f020020;
+        public static final int common_signin_btn_icon_disabled_focus_dark=0x7f020021;
+        public static final int common_signin_btn_icon_disabled_focus_light=0x7f020022;
+        public static final int common_signin_btn_icon_disabled_light=0x7f020023;
+        public static final int common_signin_btn_icon_focus_dark=0x7f020024;
+        public static final int common_signin_btn_icon_focus_light=0x7f020025;
+        public static final int common_signin_btn_icon_light=0x7f020026;
+        public static final int common_signin_btn_icon_normal_dark=0x7f020027;
+        public static final int common_signin_btn_icon_normal_light=0x7f020028;
+        public static final int common_signin_btn_icon_pressed_dark=0x7f020029;
+        public static final int common_signin_btn_icon_pressed_light=0x7f02002a;
+        public static final int common_signin_btn_text_dark=0x7f02002b;
+        public static final int common_signin_btn_text_disabled_dark=0x7f02002c;
+        public static final int common_signin_btn_text_disabled_focus_dark=0x7f02002d;
+        public static final int common_signin_btn_text_disabled_focus_light=0x7f02002e;
+        public static final int common_signin_btn_text_disabled_light=0x7f02002f;
+        public static final int common_signin_btn_text_focus_dark=0x7f020030;
+        public static final int common_signin_btn_text_focus_light=0x7f020031;
+        public static final int common_signin_btn_text_light=0x7f020032;
+        public static final int common_signin_btn_text_normal_dark=0x7f020033;
+        public static final int common_signin_btn_text_normal_light=0x7f020034;
+        public static final int common_signin_btn_text_pressed_dark=0x7f020035;
+        public static final int common_signin_btn_text_pressed_light=0x7f020036;
+        public static final int ic_launcher=0x7f020037;
+        public static final int umbrella=0x7f020038;
+        public static final int yellow_button_active=0x7f020039;
     }
     public static final class id {
-        public static final int action_settings=0x7f070020;
-        public static final int apply_effect=0x7f070007;
-        public static final int button=0x7f070008;
-        public static final int com_facebook_login_activity_progress_bar=0x7f07000b;
-        public static final int com_facebook_picker_activity_circle=0x7f07000a;
-        public static final int com_facebook_picker_checkbox=0x7f07000d;
-        public static final int com_facebook_picker_checkbox_stub=0x7f070011;
-        public static final int com_facebook_picker_divider=0x7f070015;
-        public static final int com_facebook_picker_done_button=0x7f070014;
-        public static final int com_facebook_picker_image=0x7f07000e;
-        public static final int com_facebook_picker_list_section_header=0x7f070012;
-        public static final int com_facebook_picker_list_view=0x7f070009;
-        public static final int com_facebook_picker_profile_pic_stub=0x7f07000f;
-        public static final int com_facebook_picker_row_activity_circle=0x7f07000c;
-        public static final int com_facebook_picker_title=0x7f070010;
-        public static final int com_facebook_picker_title_bar=0x7f070017;
-        public static final int com_facebook_picker_title_bar_stub=0x7f070016;
-        public static final int com_facebook_picker_top_bar=0x7f070013;
-        public static final int com_facebook_placepickerfragment_search_box_stub=0x7f070018;
-        public static final int com_facebook_usersettingsfragment_login_button=0x7f07001d;
-        public static final int com_facebook_usersettingsfragment_logo_image=0x7f07001b;
-        public static final int com_facebook_usersettingsfragment_profile_name=0x7f07001c;
-        public static final int facebook_login_button=0x7f070003;
-        public static final int image=0x7f070005;
-        public static final int large=0x7f070002;
-        public static final int linearLayout=0x7f070006;
-        public static final int normal=0x7f070001;
-        public static final int picker_subtitle=0x7f07001a;
-        public static final int preview_camera_fragment=0x7f070004;
-        public static final int preview_camera_view=0x7f07001e;
-        public static final int search_box=0x7f070019;
-        public static final int shutter_button=0x7f07001f;
-        public static final int small=0x7f070000;
+        public static final int action_settings=0x7f080025;
+        public static final int apply_effect=0x7f08000c;
+        public static final int button=0x7f08000d;
+        public static final int com_facebook_login_activity_progress_bar=0x7f080010;
+        public static final int com_facebook_picker_activity_circle=0x7f08000f;
+        public static final int com_facebook_picker_checkbox=0x7f080012;
+        public static final int com_facebook_picker_checkbox_stub=0x7f080016;
+        public static final int com_facebook_picker_divider=0x7f08001a;
+        public static final int com_facebook_picker_done_button=0x7f080019;
+        public static final int com_facebook_picker_image=0x7f080013;
+        public static final int com_facebook_picker_list_section_header=0x7f080017;
+        public static final int com_facebook_picker_list_view=0x7f08000e;
+        public static final int com_facebook_picker_profile_pic_stub=0x7f080014;
+        public static final int com_facebook_picker_row_activity_circle=0x7f080011;
+        public static final int com_facebook_picker_title=0x7f080015;
+        public static final int com_facebook_picker_title_bar=0x7f08001c;
+        public static final int com_facebook_picker_title_bar_stub=0x7f08001b;
+        public static final int com_facebook_picker_top_bar=0x7f080018;
+        public static final int com_facebook_placepickerfragment_search_box_stub=0x7f08001d;
+        public static final int com_facebook_usersettingsfragment_login_button=0x7f080022;
+        public static final int com_facebook_usersettingsfragment_logo_image=0x7f080020;
+        public static final int com_facebook_usersettingsfragment_profile_name=0x7f080021;
+        public static final int facebook_login_button=0x7f080007;
+        public static final int hybrid=0x7f080004;
+        public static final int image=0x7f08000a;
+        public static final int large=0x7f080006;
+        public static final int linearLayout=0x7f08000b;
+        public static final int map=0x7f080008;
+        public static final int none=0x7f080000;
+        public static final int normal=0x7f080001;
+        public static final int picker_subtitle=0x7f08001f;
+        public static final int preview_camera_fragment=0x7f080009;
+        public static final int preview_camera_view=0x7f080023;
+        public static final int satellite=0x7f080002;
+        public static final int search_box=0x7f08001e;
+        public static final int shutter_button=0x7f080024;
+        public static final int small=0x7f080005;
+        public static final int terrain=0x7f080003;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -280,97 +445,418 @@ containing a value of this type.
         public static final int fragment_preview_camera=0x7f030010;
     }
     public static final class menu {
-        public static final int main=0x7f0b0000;
-        public static final int preview_camera=0x7f0b0001;
-        public static final int process_image=0x7f0b0002;
+        public static final int main=0x7f0c0000;
+        public static final int preview_camera=0x7f0c0001;
+        public static final int process_image=0x7f0c0002;
     }
     public static final class string {
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings.xml 
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings.xml 
          */
-        public static final int action_settings=0x7f090000;
-        public static final int app_id=0x7f090001;
-        public static final int app_name=0x7f090002;
-        public static final int apply_effect_label_button=0x7f090003;
-        public static final int apply_text_label_button=0x7f090004;
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values/values.xml 
- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values-es/values.xml 
- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values-he/values.xml 
- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values-iw/values.xml 
+        public static final int action_settings=0x7f0a0000;
+        public static final int app_name=0x7f0a0001;
+        public static final int apply_effect_label_button=0x7f0a0002;
+        public static final int apply_text_label_button=0x7f0a0003;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-af/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-am/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-ar/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-be/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-bg/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-ca/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-cs/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-da/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-de/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-el/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-en-rGB/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-es/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-es-rUS/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-et/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-fa/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-fi/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-fr/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-hi/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-hr/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-hu/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-in/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-it/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-iw/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-ja/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-ko/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-lt/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-lv/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-ms/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-nb/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-nl/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-pl/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-pt/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-pt-rBR/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-pt-rPT/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-ro/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-ru/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-sk/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-sl/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-sr/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-sv/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-sw/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-th/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-tl/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-tr/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-uk/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-vi/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-zh-rCN/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-zh-rTW/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-zu/values.xml 
          */
-        public static final int com_facebook_choose_friends=0x7f090005;
-        public static final int com_facebook_dialogloginactivity_ok_button=0x7f090006;
-        public static final int com_facebook_internet_permission_error_message=0x7f090007;
-        public static final int com_facebook_internet_permission_error_title=0x7f090008;
-        public static final int com_facebook_loading=0x7f090009;
-        public static final int com_facebook_loginview_cancel_action=0x7f09000a;
-        public static final int com_facebook_loginview_log_in_button=0x7f09000b;
-        public static final int com_facebook_loginview_log_out_action=0x7f09000c;
-        public static final int com_facebook_loginview_log_out_button=0x7f09000d;
-        public static final int com_facebook_loginview_logged_in_as=0x7f09000e;
-        public static final int com_facebook_loginview_logged_in_using_facebook=0x7f09000f;
-        public static final int com_facebook_logo_content_description=0x7f090010;
-        public static final int com_facebook_nearby=0x7f090011;
-        public static final int com_facebook_picker_done_button_text=0x7f090012;
-        public static final int com_facebook_placepicker_subtitle_catetory_only_format=0x7f090013;
-        public static final int com_facebook_placepicker_subtitle_format=0x7f090014;
-        public static final int com_facebook_placepicker_subtitle_were_here_only_format=0x7f090015;
-        public static final int com_facebook_requesterror_password_changed=0x7f090016;
-        public static final int com_facebook_requesterror_permissions=0x7f090017;
-        public static final int com_facebook_requesterror_reconnect=0x7f090018;
-        public static final int com_facebook_requesterror_relogin=0x7f090019;
-        public static final int com_facebook_requesterror_web_login=0x7f09001a;
-        public static final int com_facebook_usersettingsfragment_log_in_button=0x7f09001b;
-        public static final int com_facebook_usersettingsfragment_logged_in=0x7f09001c;
-        public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f09001d;
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings.xml 
+        public static final int auth_client_needs_enabling_title=0x7f0a0004;
+        public static final int auth_client_needs_installation_title=0x7f0a0005;
+        public static final int auth_client_needs_update_title=0x7f0a0006;
+        public static final int auth_client_play_services_err_notification_msg=0x7f0a0007;
+        public static final int auth_client_requested_by_msg=0x7f0a0008;
+        public static final int auth_client_using_bad_version_title=0x7f0a0009;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoLibrariesFacebookUnspecified.aar/res/values/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoLibrariesFacebookUnspecified.aar/res/values-es/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoLibrariesFacebookUnspecified.aar/res/values-he/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoLibrariesFacebookUnspecified.aar/res/values-iw/values.xml 
          */
-        public static final int facebook_login_button_label=0x7f09001e;
-        public static final int facebook_logout_button_label=0x7f09001f;
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings_activity_settings.xml 
+        public static final int com_facebook_choose_friends=0x7f0a000a;
+        public static final int com_facebook_dialogloginactivity_ok_button=0x7f0a000b;
+        public static final int com_facebook_internet_permission_error_message=0x7f0a000c;
+        public static final int com_facebook_internet_permission_error_title=0x7f0a000d;
+        public static final int com_facebook_loading=0x7f0a000e;
+        public static final int com_facebook_loginview_cancel_action=0x7f0a000f;
+        public static final int com_facebook_loginview_log_in_button=0x7f0a0010;
+        public static final int com_facebook_loginview_log_out_action=0x7f0a0011;
+        public static final int com_facebook_loginview_log_out_button=0x7f0a0012;
+        public static final int com_facebook_loginview_logged_in_as=0x7f0a0013;
+        public static final int com_facebook_loginview_logged_in_using_facebook=0x7f0a0014;
+        public static final int com_facebook_logo_content_description=0x7f0a0015;
+        public static final int com_facebook_nearby=0x7f0a0016;
+        public static final int com_facebook_picker_done_button_text=0x7f0a0017;
+        public static final int com_facebook_placepicker_subtitle_catetory_only_format=0x7f0a0018;
+        public static final int com_facebook_placepicker_subtitle_format=0x7f0a0019;
+        public static final int com_facebook_placepicker_subtitle_were_here_only_format=0x7f0a001a;
+        public static final int com_facebook_requesterror_password_changed=0x7f0a001b;
+        public static final int com_facebook_requesterror_permissions=0x7f0a001c;
+        public static final int com_facebook_requesterror_reconnect=0x7f0a001d;
+        public static final int com_facebook_requesterror_relogin=0x7f0a001e;
+        public static final int com_facebook_requesterror_web_login=0x7f0a001f;
+        public static final int com_facebook_usersettingsfragment_log_in_button=0x7f0a0020;
+        public static final int com_facebook_usersettingsfragment_logged_in=0x7f0a0021;
+        public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f0a0022;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-es/values.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values-iw/values.xml 
          */
-        public static final int pref_description_enabled_option=0x7f090020;
-        public static final int pref_header_data_sync=0x7f090021;
-        public static final int pref_header_general=0x7f090022;
-        public static final int pref_title_enabled_option=0x7f090023;
-        public static final int pref_title_sync_frequency=0x7f090024;
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings.xml 
+        public static final int common_google_play_services_enable_button=0x7f0a0023;
+        public static final int common_google_play_services_enable_text=0x7f0a0024;
+        public static final int common_google_play_services_enable_title=0x7f0a0025;
+        public static final int common_google_play_services_install_button=0x7f0a0026;
+        public static final int common_google_play_services_install_text_phone=0x7f0a0027;
+        public static final int common_google_play_services_install_text_tablet=0x7f0a0028;
+        public static final int common_google_play_services_install_title=0x7f0a0029;
+        public static final int common_google_play_services_unknown_issue=0x7f0a002a;
+        public static final int common_google_play_services_unsupported_text=0x7f0a002b;
+        public static final int common_google_play_services_unsupported_title=0x7f0a002c;
+        public static final int common_google_play_services_update_button=0x7f0a002d;
+        public static final int common_google_play_services_update_text=0x7f0a002e;
+        public static final int common_google_play_services_update_title=0x7f0a002f;
+        public static final int common_signin_button_text=0x7f0a0030;
+        public static final int common_signin_button_text_long=0x7f0a0031;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings.xml 
          */
-        public static final int shutter_button=0x7f090025;
-        public static final int title_activity_preview_camera=0x7f090026;
-        public static final int title_activity_process_image=0x7f090027;
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/strings_activity_settings.xml 
+        public static final int facebook_app_id=0x7f0a0032;
+        public static final int facebook_login_button_label=0x7f0a0033;
+        public static final int facebook_logout_button_label=0x7f0a0034;
+        public static final int google_maps_api_key=0x7f0a0035;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings_activity_settings.xml 
          */
-        public static final int title_activity_settings=0x7f090028;
+        public static final int pref_description_enabled_option=0x7f0a0036;
+        public static final int pref_header_data_sync=0x7f0a0037;
+        public static final int pref_header_general=0x7f0a0038;
+        public static final int pref_title_enabled_option=0x7f0a0039;
+        public static final int pref_title_sync_frequency=0x7f0a003a;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings.xml 
+         */
+        public static final int shutter_button=0x7f0a003b;
+        public static final int title_activity_preview_camera=0x7f0a003c;
+        public static final int title_activity_process_image=0x7f0a003d;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings_activity_settings.xml 
+         */
+        public static final int title_activity_settings=0x7f0a003e;
     }
     public static final class style {
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values/styles.xml 
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/styles.xml 
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values-v11/styles.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values-v11/styles.xml 
  API 11 theme customizations can go here. 
- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/values-v14/styles.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values-v14/styles.xml 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f0a0000;
+        public static final int AppBaseTheme=0x7f0b0000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f0a0001;
-        public static final int Orange_Button=0x7f0a0002;
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/build/exploded-bundles/ConmonoProjectLibrariesFacebookUnspecified.aar/res/values/values.xml 
+        public static final int AppTheme=0x7f0b0001;
+        public static final int Orange_Button=0x7f0b0002;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoLibrariesFacebookUnspecified.aar/res/values/values.xml 
          */
-        public static final int com_facebook_loginview_default_style=0x7f0a0003;
-        public static final int com_facebook_loginview_silver_style=0x7f0a0004;
+        public static final int com_facebook_loginview_default_style=0x7f0b0003;
+        public static final int com_facebook_loginview_silver_style=0x7f0b0004;
     }
     public static final class xml {
-        public static final int pref_data_sync=0x7f040000;
-        public static final int pref_general=0x7f040001;
-        public static final int pref_headers=0x7f040002;
+        public static final int pref_data_sync=0x7f050000;
+        public static final int pref_general=0x7f050001;
+        public static final int pref_headers=0x7f050002;
     }
     public static final class styleable {
-        /** Attributes that can be used with a com_facebook_friend_picker_fragment.
+        /** Attributes that can be used with a MapAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #MapAttrs_cameraBearing cl.returnvoid.android.conmono:cameraBearing}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLat cl.returnvoid.android.conmono:cameraTargetLat}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTargetLng cl.returnvoid.android.conmono:cameraTargetLng}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraTilt cl.returnvoid.android.conmono:cameraTilt}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_cameraZoom cl.returnvoid.android.conmono:cameraZoom}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_mapType cl.returnvoid.android.conmono:mapType}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiCompass cl.returnvoid.android.conmono:uiCompass}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiRotateGestures cl.returnvoid.android.conmono:uiRotateGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiScrollGestures cl.returnvoid.android.conmono:uiScrollGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiTiltGestures cl.returnvoid.android.conmono:uiTiltGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomControls cl.returnvoid.android.conmono:uiZoomControls}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_uiZoomGestures cl.returnvoid.android.conmono:uiZoomGestures}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_useViewLifecycle cl.returnvoid.android.conmono:useViewLifecycle}</code></td><td></td></tr>
+           <tr><td><code>{@link #MapAttrs_zOrderOnTop cl.returnvoid.android.conmono:zOrderOnTop}</code></td><td></td></tr>
+           </table>
+           @see #MapAttrs_cameraBearing
+           @see #MapAttrs_cameraTargetLat
+           @see #MapAttrs_cameraTargetLng
+           @see #MapAttrs_cameraTilt
+           @see #MapAttrs_cameraZoom
+           @see #MapAttrs_mapType
+           @see #MapAttrs_uiCompass
+           @see #MapAttrs_uiRotateGestures
+           @see #MapAttrs_uiScrollGestures
+           @see #MapAttrs_uiTiltGestures
+           @see #MapAttrs_uiZoomControls
+           @see #MapAttrs_uiZoomGestures
+           @see #MapAttrs_useViewLifecycle
+           @see #MapAttrs_zOrderOnTop
+         */
+        public static final int[] MapAttrs = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006, 0x7f010007,
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b,
+            0x7f01000c, 0x7f01000d
+        };
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#cameraBearing}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:cameraBearing
+        */
+        public static final int MapAttrs_cameraBearing = 1;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#cameraTargetLat}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:cameraTargetLat
+        */
+        public static final int MapAttrs_cameraTargetLat = 2;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#cameraTargetLng}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:cameraTargetLng
+        */
+        public static final int MapAttrs_cameraTargetLng = 3;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#cameraTilt}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:cameraTilt
+        */
+        public static final int MapAttrs_cameraTilt = 4;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#cameraZoom}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:cameraZoom
+        */
+        public static final int MapAttrs_cameraZoom = 5;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#mapType}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>none</code></td><td>0</td><td></td></tr>
+<tr><td><code>normal</code></td><td>1</td><td></td></tr>
+<tr><td><code>satellite</code></td><td>2</td><td></td></tr>
+<tr><td><code>terrain</code></td><td>3</td><td></td></tr>
+<tr><td><code>hybrid</code></td><td>4</td><td></td></tr>
+</table>
+          @attr name android:mapType
+        */
+        public static final int MapAttrs_mapType = 0;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#uiCompass}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:uiCompass
+        */
+        public static final int MapAttrs_uiCompass = 6;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#uiRotateGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:uiRotateGestures
+        */
+        public static final int MapAttrs_uiRotateGestures = 7;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#uiScrollGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:uiScrollGestures
+        */
+        public static final int MapAttrs_uiScrollGestures = 8;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#uiTiltGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:uiTiltGestures
+        */
+        public static final int MapAttrs_uiTiltGestures = 9;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#uiZoomControls}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:uiZoomControls
+        */
+        public static final int MapAttrs_uiZoomControls = 10;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#uiZoomGestures}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:uiZoomGestures
+        */
+        public static final int MapAttrs_uiZoomGestures = 11;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#useViewLifecycle}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:useViewLifecycle
+        */
+        public static final int MapAttrs_useViewLifecycle = 12;
+        /**
+          <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#zOrderOnTop}
+          attribute's value can be found in the {@link #MapAttrs} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:zOrderOnTop
+        */
+        public static final int MapAttrs_zOrderOnTop = 13;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoLibrariesFacebookUnspecified.aar/res/values/values.xml 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />
@@ -381,7 +867,7 @@ containing a value of this type.
            @see #com_facebook_friend_picker_fragment_multi_select
          */
         public static final int[] com_facebook_friend_picker_fragment = {
-            0x7f010000
+            0x7f01000e
         };
         /**
           <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#multi_select}
@@ -414,7 +900,7 @@ containing a value of this type.
            @see #com_facebook_login_view_logout_text
          */
         public static final int[] com_facebook_login_view = {
-            0x7f010001, 0x7f010002, 0x7f010003, 0x7f010004
+            0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012
         };
         /**
           <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#confirm_logout}
@@ -495,8 +981,8 @@ containing a value of this type.
            @see #com_facebook_picker_fragment_title_text
          */
         public static final int[] com_facebook_picker_fragment = {
-            0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008,
-            0x7f010009, 0x7f01000a, 0x7f01000b
+            0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016,
+            0x7f010017, 0x7f010018, 0x7f010019
         };
         /**
           <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#done_button_background}
@@ -605,7 +1091,7 @@ containing a value of this type.
            @see #com_facebook_place_picker_fragment_show_search_box
          */
         public static final int[] com_facebook_place_picker_fragment = {
-            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f
+            0x7f01001a, 0x7f01001b, 0x7f01001c, 0x7f01001d
         };
         /**
           <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#radius_in_meters}
@@ -676,7 +1162,7 @@ containing a value of this type.
            @see #com_facebook_profile_picture_view_preset_size
          */
         public static final int[] com_facebook_profile_picture_view = {
-            0x7f010010, 0x7f010011
+            0x7f01001e, 0x7f01001f
         };
         /**
           <p>This symbol is the offset where the {@link cl.returnvoid.android.conmono.R.attr#is_cropped}

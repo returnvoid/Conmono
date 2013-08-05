@@ -151,7 +151,7 @@ containing a value of this type.
         public static int title_text=0x7f010008;
     }
     public static final class color {
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/libraries/facebook/res/values/styles.xml 
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/libraries/facebook/res/values/styles.xml 
          */
         public static int com_facebook_blue=0x7f040000;
         public static int com_facebook_loginview_text_color=0x7f040001;
@@ -160,7 +160,7 @@ containing a value of this type.
         public static int com_facebook_usersettingsfragment_not_connected_text_color=0x7f040004;
     }
     public static final class dimen {
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/libraries/facebook/res/values/styles.xml 
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/libraries/facebook/res/values/styles.xml 
          */
         public static int com_facebook_loginview_height=0x7f060000;
         public static int com_facebook_loginview_padding_bottom=0x7f060001;
@@ -250,10 +250,10 @@ containing a value of this type.
         public static int com_facebook_usersettingsfragment=0x7f03000c;
     }
     public static final class string {
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/libraries/facebook/res/values/strings.xml 
- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/libraries/facebook/res/values-es/strings.xml 
- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/libraries/facebook/res/values-he/strings.xml 
- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/libraries/facebook/res/values-iw/strings.xml 
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/libraries/facebook/res/values/strings.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/libraries/facebook/res/values-es/strings.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/libraries/facebook/res/values-he/strings.xml 
+ From: file:/Users/malamute/AndroidStudioProjects/Conmono/libraries/facebook/res/values-iw/strings.xml 
          */
         public static int com_facebook_choose_friends=0x7f070000;
         public static int com_facebook_dialogloginactivity_ok_button=0x7f070001;
@@ -282,13 +282,13 @@ containing a value of this type.
         public static int com_facebook_usersettingsfragment_not_logged_in=0x7f070018;
     }
     public static final class style {
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/libraries/facebook/res/values/styles.xml 
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/libraries/facebook/res/values/styles.xml 
          */
         public static int com_facebook_loginview_default_style=0x7f080000;
         public static int com_facebook_loginview_silver_style=0x7f080001;
     }
     public static final class styleable {
-        /**  From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/libraries/facebook/res/values/attrs.xml 
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/libraries/facebook/res/values/attrs.xml 
            <p>Includes the following attributes:</p>
            <table>
            <colgroup align="left" />

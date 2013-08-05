@@ -1,39 +1,32 @@
 package cl.returnvoid.android.conmono;
 
-import android.app.Activity;
+import android.app.FragmentTransaction;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
-import android.content.pm.Signature;
-import android.hardware.Camera;
+import android.location.Criteria;
+import android.location.Location;
+import android.location.LocationManager;
 import android.os.Bundle;
-import android.util.Base64;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
-import android.view.Display;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.FrameLayout;
-import android.widget.LinearLayout;
-import android.widget.TextView;
 
-import com.facebook.LoggingBehavior;
-import com.facebook.Request;
-import com.facebook.Response;
 import com.facebook.Session;
 import com.facebook.SessionState;
-import com.facebook.Settings;
-import com.facebook.model.GraphUser;
+import com.google.android.gms.location.LocationListener;
+import com.google.android.gms.maps.GoogleMap;
+import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
+import com.google.android.gms.maps.model.MarkerOptions;
 
-import java.security.MessageDigest;
-import java.security.NoSuchAlgorithmException;
 
-
-public class MainActivity extends Activity {
+public class MainActivity extends FragmentActivity{
     private String ACTIVITY_TAG = "ACTIVITY_TAG";
     private Session.StatusCallback statusCallback = new SessionStatusCallback();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,9 +51,8 @@ public class MainActivity extends Activity {
         }
 
         if(session.isOpened()){
-            //goToPreviewCamera();
+            goToPreviewCamera();
         }
-
 
         updateView();
     }
@@ -116,6 +108,7 @@ public class MainActivity extends Activity {
         super.onActivityResult(requestCode, resultCode, data);
         Session.getActiveSession().onActivityResult(this, requestCode, resultCode, data);
     }
+
 
     private class SessionStatusCallback implements Session.StatusCallback {
         @Override
