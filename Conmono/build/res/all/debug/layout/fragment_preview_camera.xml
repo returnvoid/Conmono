@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+
+    <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="cl.returnvoid.mypic.fragments.PreviewCameraFragment$PreviewCamera"
+            android:id="@+id/preview_camera_view"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+
+    <Button
+            android:layout_width="74dp"
+            android:layout_height="74dp"
+            android:id="@+id/shutter_button"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/yellow_button_active"/>
+</RelativeLayout><!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/layout/fragment_preview_camera.xml -->

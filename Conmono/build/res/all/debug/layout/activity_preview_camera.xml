@@ -1,0 +1,14 @@
+<RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <fragment
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:name="cl.returnvoid.android.conmono.fragments.PreviewCameraFragment"
+            android:id="@+id/preview_camera_fragment"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"/>
+</RelativeLayout><!-- From: file:/Users/ggio/AndroidStudioProjects/ConmonoProject/Conmono/src/main/res/layout/activity_preview_camera.xml -->
