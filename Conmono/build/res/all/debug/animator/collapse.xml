@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+            android:valueFrom="100"
+            android:valueTo="200"
+            android:propertyName="height"
+            >
+
+    </objectAnimator>
+</set><!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/animator/collapse.xml -->
