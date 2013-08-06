@@ -166,6 +166,7 @@
     <string name="common_signin_button_text">Sign in</string>
     <string name="common_signin_button_text_long">Sign in with Google</string>
     <!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings.xml -->
+    <string name="dialog_picture_saved">Saving picture...</string>
     <string name="facebook_app_id">107309112809134</string>
     <string name="facebook_login_button_label">Login</string>
     <string name="facebook_logout_button_label">Log out</string>
@@ -178,6 +179,7 @@
     <string name="pref_title_sync_frequency">Sync frequency</string>
     <!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings.xml -->
     <string name="shutter_button">Tomar Foto</string>
+    <string name="title_activity_photos_map">\@string/app_name</string>
     <string name="title_activity_preview_camera">My Pic</string>
     <string name="title_activity_process_image">Process Image</string>
     <!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings_activity_settings.xml -->

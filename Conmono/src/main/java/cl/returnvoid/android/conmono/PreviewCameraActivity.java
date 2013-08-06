@@ -58,6 +58,12 @@ public class PreviewCameraActivity extends FragmentActivity {
     }
 
     @Override
+    public void onPause(){
+        super.onPause();
+        previewCamera.releaseCamera();
+    }
+
+    @Override
     public void onDestroy() {
         super.onDestroy();
         Log.d(PREVIEW_CAMERA_ACTIVITY_TAG, "onDestroy");

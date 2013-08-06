@@ -18,11 +18,5 @@
             android:id="@+id/facebook_login_button"
             android:layout_gravity="center"/>
 
-    <fragment
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:name="com.google.android.gms.maps.SupportMapFragment"
-            android:id="@+id/map"/>
-
 </LinearLayout>
 <!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/layout/activity_main.xml -->

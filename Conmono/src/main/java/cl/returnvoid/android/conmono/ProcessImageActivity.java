@@ -1,6 +1,7 @@
 package cl.returnvoid.android.conmono;
 
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.DialogInterface;
 import android.content.pm.ActivityInfo;
 import android.graphics.Bitmap;
@@ -19,8 +20,10 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.text.Editable;
 import android.util.Log;
+import android.view.Display;
 import android.view.Menu;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -115,6 +118,28 @@ public class ProcessImageActivity extends Activity {
         return true;
     }
 
+    public class PreviewProcessedImage extends ImageView{
+
+        private final int viewHeight;
+        private final int viewWidth;
+
+        public PreviewProcessedImage(Context context){
+            super(context);
+            WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+            Display display = wm.getDefaultDisplay();
+            int screenWidth = display.getWidth();
+            int screenHeight = display.getHeight();
+            viewHeight = screenWidth;
+            viewWidth = screenWidth;
+        }
+
+        @Override
+        protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+
+            setMeasuredDimension(viewWidth, viewWidth);
+        }
+
+    }
 
     /**
      * ProccessImage Class
