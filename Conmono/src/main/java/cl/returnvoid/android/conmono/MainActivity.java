@@ -42,7 +42,7 @@ public class MainActivity extends FragmentActivity{
         }
 
         if(session.isOpened()){
-            goToPreviewCamera();
+            //goToPreviewCamera();
         }
 
         updateView();

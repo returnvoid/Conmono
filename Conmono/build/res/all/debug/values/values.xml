@@ -113,7 +113,7 @@
     <dimen name="com_facebook_usersettingsfragment_profile_picture_width">64dp</dimen>
     <!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings.xml -->
     <string name="action_settings">Settings</string>
-    <string name="app_name">ConMono</string>
+    <string name="app_name">conmono</string>
     <string name="apply_effect_label_button">Apply Effect</string>
     <string name="apply_text_label_button">Apply Text</string>
     <!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/build/exploded-bundles/ConmonoGooglePlayServicesUnspecified.aar/res/values/values.xml -->

@@ -23,6 +23,6 @@
             android:id="@+id/shutter_button"
             android:layout_centerVertical="true"
             android:layout_centerHorizontal="true"
-            android:background="@drawable/yellow_button_active"/>
+            android:background="@drawable/conmono_yellow_button"/>
 
 </RelativeLayout><!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/layout/fragment_preview_camera.xml -->

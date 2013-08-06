@@ -10,7 +10,7 @@
 
     <ImageView
             android:layout_width="match_parent"
-            android:layout_height="300dp"
+            android:layout_height="100dp"
             android:id="@+id/image"
             android:layout_alignParentTop="false"
             android:layout_alignParentLeft="false"
@@ -19,9 +19,15 @@
             android:scaleType="fitStart"
             />
 
-
-
-
+    <view
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            class="cl.returnvoid.android.conmono.ProcessImageActivity$PreviewProcessedImage"
+            android:id="@+id/view"
+            android:layout_below="@+id/linearLayout"
+            android:layout_alignLeft="@+id/linearLayout"
+            android:layout_marginTop="18dp"
+            android:layout_alignRight="@+id/linearLayout"/>
 
     <RelativeLayout
             android:layout_width="fill_parent"
@@ -48,17 +54,5 @@
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"/>
     </RelativeLayout>
-
-    <view
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            class="cl.returnvoid.android.conmono.ProcessImageActivity$PreviewProcessedImage"
-            android:id="@+id/view"
-            android:layout_alignTop="@+id/image"
-            android:layout_alignLeft="@+id/image"
-            android:layout_marginLeft="12dp"
-            android:layout_marginTop="49dp"
-            android:layout_alignRight="@+id/image"
-            android:layout_above="@+id/linearLayout"/>
 </RelativeLayout>
 <!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/layout/activity_process_image.xml -->

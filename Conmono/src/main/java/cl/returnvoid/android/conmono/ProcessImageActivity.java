@@ -19,6 +19,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.text.Editable;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Display;
 import android.view.Menu;
@@ -118,7 +119,7 @@ public class ProcessImageActivity extends Activity {
         return true;
     }
 
-    public class PreviewProcessedImage extends ImageView{
+    public static class PreviewProcessedImage extends ImageView{
 
         private final int viewHeight;
         private final int viewWidth;
@@ -133,9 +134,18 @@ public class ProcessImageActivity extends Activity {
             viewWidth = screenWidth;
         }
 
+        public PreviewProcessedImage(Context context, AttributeSet attribs){
+            super(context, attribs);
+            WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
+            Display display = wm.getDefaultDisplay();
+            int screenWidth = display.getWidth();
+            int screenHeight = display.getHeight();
+            viewHeight = screenWidth;
+            viewWidth = screenWidth;
+        }
+
         @Override
         protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-
             setMeasuredDimension(viewWidth, viewWidth);
         }
 
@@ -167,7 +177,7 @@ public class ProcessImageActivity extends Activity {
             BitmapFactory.Options options = new BitmapFactory.Options();
             options.inPreferredConfig = Bitmap.Config.ARGB_8888;
             Bitmap base = Bitmap.createBitmap(bm, 0, 0, 612, 612);//Bitmap.createBitmap(bm, 612, 612, bm.getConfig());
-            Bitmap umbrella = BitmapFactory.decodeResource(getResources(), R.drawable.umbrella, options);
+            Bitmap umbrella = BitmapFactory.decodeResource(getResources(), R.drawable.conmono_logotipo, options);
             Bitmap result = Bitmap.createBitmap(612, 612, Bitmap.Config.ARGB_8888);
 
             Paint paintBase = new Paint();
