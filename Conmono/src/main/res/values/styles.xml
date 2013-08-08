@@ -20,4 +20,8 @@
         <item name="android:background">#ff8800</item>
     </style>
 
+    <style name="conmono_border">
+        <item name="android:background">#ffe36064</item>
+    </style>
+
 </resources>

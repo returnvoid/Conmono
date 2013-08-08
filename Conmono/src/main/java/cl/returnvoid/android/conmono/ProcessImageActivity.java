@@ -8,6 +8,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
+import android.graphics.Matrix;
 import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
@@ -16,6 +17,7 @@ import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.media.MediaScannerConnection;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Bundle;
 import android.app.Activity;
 import android.text.Editable;
@@ -27,15 +29,17 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.ImageView;
+
 import java.io.File;
 import java.io.FileOutputStream;
 
 public class ProcessImageActivity extends Activity {
     public static final String PROCESS_IMAGE_ACTIVITY = "PROCESS_IMAGE_ACTIVITY";
-    protected ImageView imageView;
-    protected File file;
+    protected ImageView imageForProcess;
     protected String uri;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,26 +47,41 @@ public class ProcessImageActivity extends Activity {
         setContentView(R.layout.activity_process_image);
 
         uri = getIntent().getStringExtra("imaged_saved_uri");
-        Log.d(PROCESS_IMAGE_ACTIVITY, "uri: " + uri);
 
-        imageView = (ImageView) findViewById(R.id.image);
-        file = new File(uri);
-        imageView.setImageBitmap(BitmapFactory.decodeFile(file.getPath()));
-        Button applyEffect = (Button) findViewById(R.id.apply_effect);
-        applyEffect.setOnClickListener(new View.OnClickListener() {
+        imageForProcess = (ImageView) findViewById(R.id.conmono_image_for_process);
+        LoadPictureFromSDCard loadPictureFromSDCard = new LoadPictureFromSDCard(new CallBackPictureLoaded() {
             @Override
-            public void onClick(View view) {
-                imageView.setImageBitmap(new ProcessImage().applyEffect());
+            public void onPictureLoaded(Bitmap bm) {
+                loadOriginalPictureFromFile(bm);
             }
         });
-        //imageView.setImageBitmap(new ProcessImage().applyEffect());
-        //openDialog();
+        loadPictureFromSDCard.execute(uri);
+
     }
 
-    protected void openDialog(){
+    public interface CallBackPictureLoaded {
+        public void onPictureLoaded(Bitmap bm);
+    }
+
+    private void loadOriginalPictureFromFile(final Bitmap bm) {
+        imageForProcess.setImageBitmap(Bitmap.createScaledBitmap(bm, 612, 612, true));
+        ImageButton glitchButton = (ImageButton) findViewById(R.id.glitch_button);
+        glitchButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                applyGlitch(bm);
+            }
+        });
+    }
+
+    private void applyGlitch(Bitmap bm){
+        imageForProcess.setImageBitmap(new ProcessImage().glitch(bm));
+    }
+
+    protected void openDialog() {
         AlertDialog.Builder alert = new AlertDialog.Builder(getBaseContext());
         alert.setTitle("Texto");
-        alert.setMessage("Ingresa tu mensaje");
+        alert.setMessage(getResources().getString(R.string.msg));
 
         // Set an EditText view to get user input
         final EditText input;
@@ -72,7 +91,7 @@ public class ProcessImageActivity extends Activity {
         alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int whichButton) {
                 Editable value = input.getText();
-                Bitmap bm = ((BitmapDrawable) imageView.getDrawable()).getBitmap();
+                Bitmap bm = ((BitmapDrawable) imageForProcess.getDrawable()).getBitmap();
                 saveNewFile(bm);
             }
         });
@@ -100,7 +119,7 @@ public class ProcessImageActivity extends Activity {
             canvas.drawBitmap(mutableBm, 0, 0, paint);
 
             mutableBm.compress(Bitmap.CompressFormat.JPEG, 90, out);
-        }catch (java.io.IOException e) {
+        } catch (java.io.IOException e) {
             Log.e(PROCESS_IMAGE_ACTIVITY, "Exception in photoCallback", e);
         }
         MediaScannerConnection.scanFile(getBaseContext(),
@@ -119,49 +138,86 @@ public class ProcessImageActivity extends Activity {
         return true;
     }
 
-    public static class PreviewProcessedImage extends ImageView{
+    public static class PreviewProcessedImage extends ImageView {
 
-        private final int viewHeight;
-        private final int viewWidth;
 
-        public PreviewProcessedImage(Context context){
+        public PreviewProcessedImage(Context context) {
             super(context);
-            WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-            Display display = wm.getDefaultDisplay();
-            int screenWidth = display.getWidth();
-            int screenHeight = display.getHeight();
-            viewHeight = screenWidth;
-            viewWidth = screenWidth;
+
         }
 
-        public PreviewProcessedImage(Context context, AttributeSet attribs){
+        public PreviewProcessedImage(Context context, AttributeSet attribs) {
             super(context, attribs);
-            WindowManager wm = (WindowManager) context.getSystemService(Context.WINDOW_SERVICE);
-            Display display = wm.getDefaultDisplay();
-            int screenWidth = display.getWidth();
-            int screenHeight = display.getHeight();
-            viewHeight = screenWidth;
-            viewWidth = screenWidth;
+
         }
 
         @Override
         protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
-            setMeasuredDimension(viewWidth, viewWidth);
+            setMeasuredDimension(widthMeasureSpec, heightMeasureSpec);
         }
 
+    }
+
+    static class LoadPictureFromSDCard extends AsyncTask<String, Void, Bitmap> {
+        private CallBackPictureLoaded callBackPictureLoaded;
+
+        public LoadPictureFromSDCard(CallBackPictureLoaded callBackPictureLoaded) {
+            this.callBackPictureLoaded = callBackPictureLoaded;
+        }
+
+        @Override
+        protected Bitmap doInBackground(String... params) {
+            File file = new File(params[0]);
+
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inJustDecodeBounds = true;
+            BitmapFactory.decodeFile(file.getPath(), options);
+            options.inSampleSize = calculateInSampleSize(options, 612, 612);
+            options.inJustDecodeBounds = false;
+
+            Bitmap bitmap = BitmapFactory.decodeFile(file.getPath(), options);
+            Bitmap bitmapMutable = bitmap.copy(Bitmap.Config.ARGB_8888, true);
+
+            Canvas canvas = new Canvas(bitmapMutable);
+            Matrix matrix = new Matrix();
+            matrix.postRotate(90, 0, 0);
+            canvas.setMatrix(matrix);
+            Bitmap bm = Bitmap.createBitmap(bitmapMutable, 0, 0, 612, 612, matrix, true);
+
+            return bm;
+        }
+
+        @Override
+        protected void onPostExecute(Bitmap bm) {
+            callBackPictureLoaded.onPictureLoaded(bm);
+        }
+
+        public static int calculateInSampleSize(BitmapFactory.Options options, int reqWidth, int reqHeight) {
+            final int height = options.outHeight;
+            final int width = options.outWidth;
+            int inSampleSize = 1;
+
+            if (height > reqHeight || width > reqWidth) {
+                final int heightRatio = Math.round((float) height / (float) reqHeight);
+                final int widthRatio = Math.round((float) width / (float) reqWidth);
+                inSampleSize = heightRatio < widthRatio ? heightRatio : widthRatio;
+            }
+            return inSampleSize;
+        }
     }
 
     /**
      * ProccessImage Class
      */
-    public class ProcessImage{
-        public void ProccessImage(){
+    public class ProcessImage {
+        public void ProcessImage() {
 
         }
 
-        public Bitmap applyEffect(){
+        public Bitmap applyEffect() {
+            File file = new File(uri);
             Bitmap bm = BitmapFactory.decodeFile(file.getPath());
-            int []pixels = new int[bm.getWidth() * bm.getHeight()];
+            int[] pixels = new int[bm.getWidth() * bm.getHeight()];
             int k = 0;
             /*for(int i = 0; i < bm.getWidth(); i++){
                 for(int j = 0; j < bm.getHeight(); j++, k++){
@@ -195,14 +251,36 @@ public class ProcessImageActivity extends Activity {
             //new TextOnImage().textOnImage(canvas);
             return result;
         }
+
+        public Bitmap glitch(Bitmap bm) {
+            Bitmap bitmapFinal = bm.copy(Bitmap.Config.ARGB_8888, true);
+            int[] pixels = new int[bitmapFinal.getWidth() * bitmapFinal.getHeight()];
+            int k = 0;
+            for (int i = 0; i < bitmapFinal.getWidth(); i++) {
+                for (int j = 0; j < bitmapFinal.getHeight(); j++, k++) {
+                    int pixel = bm.getPixel(i, j);
+                    int red = Color.red(pixel);
+                    if (red > 100) {
+                        pixels[k] = Color.YELLOW;
+                    } else {
+                        pixels[k] = pixel;
+                    }
+                }
+            }
+
+            Bitmap bitmap = Bitmap.createBitmap(pixels, 0, bitmapFinal.getWidth(), bitmapFinal.getWidth(), bitmapFinal.getHeight(), Bitmap.Config.RGB_565);
+
+            return bitmap;
+        }
     }
+
 
     public class TextOnImage {
         public TextOnImage() {
 
         }
 
-        public void textOnImage(Canvas canvas){
+        public void textOnImage(Canvas canvas) {
             Bitmap bm = Bitmap.createBitmap(612, 612, Bitmap.Config.ARGB_8888);
             Typeface type = Typeface.create("Roboto", Typeface.BOLD);
             Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
@@ -213,5 +291,5 @@ public class ProcessImageActivity extends Activity {
 
         }
     }
-    
+
 }

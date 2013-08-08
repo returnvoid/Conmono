@@ -6,7 +6,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.Canvas;
+import android.graphics.Color;
 import android.graphics.Matrix;
+import android.graphics.Paint;
+import android.graphics.Rect;
 import android.hardware.Camera;
 import android.media.MediaPlayer;
 import android.media.MediaScannerConnection;
@@ -25,6 +29,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 import android.widget.ProgressBar;
+import android.widget.RelativeLayout;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -72,19 +77,19 @@ public class PreviewCameraFragment extends Fragment {
             Display display = wm.getDefaultDisplay();
             int screenWidth = display.getWidth();
             int screenHeight = display.getHeight();
-            viewHeight = 2 *  (screenHeight / 3);
+            viewHeight = screenWidth;
             viewWidth = screenWidth;
 
             imageSaved = Uri.EMPTY;
             getHolder().addCallback(this);
         }
 
-        @Override
+        /*@Override
         public void onLayout(boolean changed, int left, int top, int right, int bottom) {
             if (changed) {
                 (this).layout(0, 0, viewWidth, viewHeight);
             }
-        }
+        }*/
 
         public void capturePreviewCamera(){
             if(camera != null && getHolder().getSurface() != null){
@@ -215,7 +220,6 @@ public class PreviewCameraFragment extends Fragment {
         private ProgressDialog progressDialog;
         private Context context;
 
-
         public SavePictureOnSDCard(Context context, PreviewCamera.CallBackPictureSaved callBackPictureSaved) {
             this.callBackPictureSaved = callBackPictureSaved;
             this.context = context;
@@ -248,9 +252,7 @@ public class PreviewCameraFragment extends Fragment {
                 int height = bmf.getHeight();
                 float scaleWidth = ((float) w) / width;
                 float scaleHeight = ((float) h) / height;
-                Matrix matrix = new Matrix();
-                matrix.postScale(scaleWidth, scaleHeight);
-                matrix.postRotate(90, 0, 0);
+
 
                 bmf.compress(Bitmap.CompressFormat.JPEG, 90, out);
                 Log.d(PREVIEW_CAMERA, "imageSaved: " + imageSaved.toString());

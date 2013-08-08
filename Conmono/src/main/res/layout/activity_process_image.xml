@@ -6,52 +6,42 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context=".ProcessImageActivity">
-
-    <ImageView
-            android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:id="@+id/image"
-            android:layout_alignParentTop="false"
-            android:layout_alignParentLeft="false"
-            android:adjustViewBounds="false"
-            android:layout_alignParentEnd="false"
-            android:scaleType="fitStart"
-            />
+    tools:context=".ProcessImageActivity"
+    android:background="@color/cl_returnvoid_mypic_grey">
 
     <view
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             class="cl.returnvoid.android.conmono.ProcessImageActivity$PreviewProcessedImage"
-            android:id="@+id/view"
-            android:layout_below="@+id/linearLayout"
-            android:layout_alignLeft="@+id/linearLayout"
-            android:layout_marginTop="18dp"
-            android:layout_alignRight="@+id/linearLayout"/>
+            android:id="@+id/conmono_image_for_process"
+            android:scaleType="fitStart"
+            />
 
     <RelativeLayout
             android:layout_width="fill_parent"
-            android:layout_height="60dp"
+            android:layout_height="48dp"
             android:layout_alignParentEnd="false"
             android:id="@+id/linearLayout"
-            android:layout_below="@+id/image"
-            android:layout_alignLeft="@+id/image">
+            android:layout_alignParentBottom="false"
+            android:layout_alignParentLeft="false"
+            android:layout_alignBottom="@+id/conmono_image_for_process">
 
-        <Button
-                android:layout_width="140dp"
-                android:layout_height="50dp"
-                android:text="@string/apply_effect_label_button"
-                android:id="@+id/apply_effect"
-                style="@style/Orange_Button"
-                />
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/glitch_button"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/conmono_shutter_button"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"/>
 
-        <Button
-                android:layout_width="140dp"
-                android:layout_height="50dp"
-                android:text="@string/apply_text_label_button"
-                android:id="@+id/button"
-                style="@style/Orange_Button"
+        <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"
+                android:background="@drawable/conmono_shutter_button"
                 android:layout_alignParentTop="true"
                 android:layout_alignParentRight="true"/>
     </RelativeLayout>
+
 </RelativeLayout>

@@ -24,10 +24,26 @@
     </layouts>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="cl.ret" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="cl.re" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="ERROR" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cf84a4f-86cd-4b50-b7ba-1d420a2df6c0" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conmono/src/main/res/drawable-hdpi/conmono_shutter_button.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java" afterPath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java" afterPath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java" afterPath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/source/r/debug/cl/returnvoid/android/conmono/R.java" afterPath="$PROJECT_DIR$/Conmono/build/source/r/debug/cl/returnvoid/android/conmono/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/source/r/debug/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/Conmono/build/source/r/debug/com/facebook/android/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_process_image.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_process_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_process_image.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_process_image.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/fragment_preview_camera.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/fragment_preview_camera.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Conmono.iws" />
@@ -101,10 +117,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="29" selection-start="321" selection-end="321" vertical-scroll-proportion="0.18564357" vertical-offset="0" max-vertical-offset="2190">
+            <state line="49" column="40" selection-start="1868" selection-end="1886" vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="2355">
               <folding />
             </state>
           </provider>
@@ -113,16 +129,7 @@
       <file leaf-file-name="PreviewCameraActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/PreviewCameraActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="63" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1290">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PhotosMapFragment.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PhotosMapFragment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="50" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1050">
+            <state line="40" column="63" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -131,17 +138,26 @@
       <file leaf-file-name="PreviewCameraFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="154" column="69" selection-start="5478" selection-end="5478" vertical-scroll-proportion="0.0" vertical-offset="2295" max-vertical-offset="4260">
-              <folding />
+            <state line="255" column="0" selection-start="9410" selection-end="9410" vertical-scroll-proportion="0.0" vertical-offset="2689" max-vertical-offset="3675">
+              <folding>
+                <element signature="e#4629#5664#0" expanded="true" />
+                <element signature="e#5005#5342#0" expanded="true" />
+                <element signature="e#5311#5312#0" expanded="true" />
+                <element signature="e#5649#5650#0" expanded="true" />
+                <element signature="e#8317#8380#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessImageActivity.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="ProcessImageActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="179" column="102" selection-start="6526" selection-end="6526" vertical-scroll-proportion="0.0" vertical-offset="1539" max-vertical-offset="2805">
-              <folding />
+            <state line="272" column="3" selection-start="10098" selection-end="10098" vertical-scroll-proportion="0.46362516" vertical-offset="3104" max-vertical-offset="3915">
+              <folding>
+                <element signature="e#2419#2571#0" expanded="true" />
+                <element signature="e#2560#2561#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -152,31 +168,16 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state line="19" column="14" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="945">
+            <state line="19" column="4" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="795">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_main.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="2531" selection-end="2531" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1065">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="fragment_preview_camera.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml">
-          <provider selected="true" editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
+      <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="27" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -269,7 +270,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/GooglePlayServices/build.gradle" />
         <option value="$PROJECT_DIR$/Conmono/src/main/res/animator/collapse.xml" />
         <option value="$PROJECT_DIR$/Conmono/src/main/res/animator/expand.xml" />
         <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PhotosMapActivity.java" />
@@ -278,20 +278,20 @@
         <option value="$PROJECT_DIR$/Conmono/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Conmono/build/manifests/debug/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/PreviewCameraActivity.java" />
-        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java" />
-        <option value="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_process_image.xml" />
-        <option value="$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml" />
-        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java" />
         <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_process_image.xml" />
+        <option value="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
     <option name="y" value="22" />
-    <option name="width" value="2548" />
+    <option name="width" value="2560" />
     <option name="height" value="1414" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -321,6 +321,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -481,6 +482,40 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="drawable-xxhdpi" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -587,9 +622,80 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conmono" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fragments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -798,7 +904,11 @@
       <created>1375832536195</created>
       <updated>1375832536195</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="06-08-13">
+      <created>1375832590104</created>
+      <updated>1375832590104</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -822,15 +932,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="22" width="2548" height="1414" extended-state="6" />
+    <frame x="0" y="22" width="2560" height="1414" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33041403" sideWeight="0.64528596" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35394126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35162288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995363" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -839,16 +949,16 @@
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.64528596" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843894" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.64760435" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25059953" sideWeight="0.64605874" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24940334" sideWeight="0.6483771" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33041403" sideWeight="0.64528596" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -915,21 +1025,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/animator/collapse.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="21" selection-start="109" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
@@ -940,16 +1035,6 @@
         <state line="10" column="6" selection-start="280" selection-end="280" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_photos_map.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="0.3531856" vertical-offset="0" max-vertical-offset="722">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Conmono/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="39" selection-start="1227" selection-end="1227" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1080">
@@ -957,60 +1042,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/PreviewCameraActivity.java">
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_photos_map.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="63" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="128" max-vertical-offset="1035">
+        <state line="17" column="0" selection-start="724" selection-end="724" vertical-scroll-proportion="0.3256705" vertical-offset="0" max-vertical-offset="783">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java">
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="154" column="69" selection-start="5478" selection-end="5478" vertical-scroll-proportion="0.0" vertical-offset="1716" max-vertical-offset="4260">
+        <state line="27" column="0" selection-start="886" selection-end="886" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="495">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/activity_preview_camera.xml">
-      <provider selected="true" editor-type-id="android-designer">
+      <provider editor-type-id="android-designer">
         <state />
       </provider>
-      <provider editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PhotosMapFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="50" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="840">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="83" selection-end="83" vertical-scroll-proportion="0.03567182" vertical-offset="0" max-vertical-offset="841">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/activity_process_image.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="19" column="14" selection-start="881" selection-end="881" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="191" selection-end="191" vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="495">
+        <state line="13" column="17" selection-start="597" selection-end="597" vertical-scroll-proportion="0.24904214" vertical-offset="0" max-vertical-offset="783">
           <folding />
         </state>
       </provider>
@@ -1020,22 +1074,86 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="2531" selection-end="2531" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1065">
+        <state line="30" column="49" selection-start="1207" selection-end="1207" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1065">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java">
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PhotosMapFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="179" column="102" selection-start="6526" selection-end="6526" vertical-scroll-proportion="0.0" vertical-offset="1539" max-vertical-offset="2805">
+        <state line="35" column="50" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.35185185" vertical-offset="30" max-vertical-offset="840">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="25" column="12" selection-start="1058" selection-end="1058" vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="29" selection-start="321" selection-end="321" vertical-scroll-proportion="0.18564357" vertical-offset="0" max-vertical-offset="2190">
+        <state line="49" column="40" selection-start="1868" selection-end="1886" vertical-scroll-proportion="0.0" vertical-offset="182" max-vertical-offset="2295">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/PreviewCameraActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="63" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="255" column="0" selection-start="9410" selection-end="9410" vertical-scroll-proportion="0.0" vertical-offset="2689" max-vertical-offset="3675">
+          <folding>
+            <element signature="e#4629#5664#0" expanded="true" />
+            <element signature="e#5005#5342#0" expanded="true" />
+            <element signature="e#5311#5312#0" expanded="true" />
+            <element signature="e#5649#5650#0" expanded="true" />
+            <element signature="e#8317#8380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="27" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/layout/activity_process_image.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="19" column="4" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="810">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/graphics/Bitmap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="102" selection-start="4844" selection-end="4844" vertical-scroll-proportion="0.42663378" vertical-offset="1169" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="272" column="3" selection-start="10098" selection-end="10098" vertical-scroll-proportion="0.46362516" vertical-offset="3104" max-vertical-offset="3915">
+          <folding>
+            <element signature="e#2419#2571#0" expanded="true" />
+            <element signature="e#2560#2561#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

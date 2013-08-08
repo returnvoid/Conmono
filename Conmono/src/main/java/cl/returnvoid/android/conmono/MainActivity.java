@@ -9,6 +9,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.facebook.Session;
 import com.facebook.SessionState;
@@ -17,7 +18,7 @@ import com.facebook.SessionState;
 public class MainActivity extends FragmentActivity{
     private String ACTIVITY_TAG = "ACTIVITY_TAG";
     private Session.StatusCallback statusCallback = new SessionStatusCallback();
-
+    private ImageButton enterButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -40,9 +41,15 @@ public class MainActivity extends FragmentActivity{
                 session.openForRead(new Session.OpenRequest(this).setCallback(statusCallback));
             }
         }
-
+        enterButton = (ImageButton) findViewById(R.id.conmono_enter_button);
         if(session.isOpened()){
             //goToPreviewCamera();
+            enterButton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    goToPreviewCamera();
+                }
+            });
         }
 
         updateView();

@@ -383,53 +383,54 @@ containing a value of this type.
         public static final int common_signin_btn_text_pressed_light=0x7f020036;
         public static final int conmono_logo=0x7f020037;
         public static final int conmono_logotipo=0x7f020038;
-        public static final int conmono_yellow_button=0x7f020039;
-        public static final int ic_launcher=0x7f02003a;
+        public static final int conmono_shutter_button=0x7f020039;
+        public static final int conmono_yellow_button=0x7f02003a;
+        public static final int ic_launcher=0x7f02003b;
     }
     public static final class id {
         public static final int action_settings=0x7f08002a;
-        public static final int apply_effect=0x7f080010;
-        public static final int button=0x7f080011;
-        public static final int com_facebook_login_activity_progress_bar=0x7f080014;
-        public static final int com_facebook_picker_activity_circle=0x7f080013;
-        public static final int com_facebook_picker_checkbox=0x7f080016;
-        public static final int com_facebook_picker_checkbox_stub=0x7f08001a;
-        public static final int com_facebook_picker_divider=0x7f08001e;
-        public static final int com_facebook_picker_done_button=0x7f08001d;
-        public static final int com_facebook_picker_image=0x7f080017;
-        public static final int com_facebook_picker_list_section_header=0x7f08001b;
-        public static final int com_facebook_picker_list_view=0x7f080012;
-        public static final int com_facebook_picker_profile_pic_stub=0x7f080018;
-        public static final int com_facebook_picker_row_activity_circle=0x7f080015;
-        public static final int com_facebook_picker_title=0x7f080019;
-        public static final int com_facebook_picker_title_bar=0x7f080020;
-        public static final int com_facebook_picker_title_bar_stub=0x7f08001f;
-        public static final int com_facebook_picker_top_bar=0x7f08001c;
-        public static final int com_facebook_placepickerfragment_search_box_stub=0x7f080021;
-        public static final int com_facebook_usersettingsfragment_login_button=0x7f080026;
-        public static final int com_facebook_usersettingsfragment_logo_image=0x7f080024;
-        public static final int com_facebook_usersettingsfragment_profile_name=0x7f080025;
+        public static final int com_facebook_login_activity_progress_bar=0x7f080013;
+        public static final int com_facebook_picker_activity_circle=0x7f080012;
+        public static final int com_facebook_picker_checkbox=0x7f080015;
+        public static final int com_facebook_picker_checkbox_stub=0x7f080019;
+        public static final int com_facebook_picker_divider=0x7f08001d;
+        public static final int com_facebook_picker_done_button=0x7f08001c;
+        public static final int com_facebook_picker_image=0x7f080016;
+        public static final int com_facebook_picker_list_section_header=0x7f08001a;
+        public static final int com_facebook_picker_list_view=0x7f080011;
+        public static final int com_facebook_picker_profile_pic_stub=0x7f080017;
+        public static final int com_facebook_picker_row_activity_circle=0x7f080014;
+        public static final int com_facebook_picker_title=0x7f080018;
+        public static final int com_facebook_picker_title_bar=0x7f08001f;
+        public static final int com_facebook_picker_title_bar_stub=0x7f08001e;
+        public static final int com_facebook_picker_top_bar=0x7f08001b;
+        public static final int com_facebook_placepickerfragment_search_box_stub=0x7f080020;
+        public static final int com_facebook_usersettingsfragment_login_button=0x7f080025;
+        public static final int com_facebook_usersettingsfragment_logo_image=0x7f080023;
+        public static final int com_facebook_usersettingsfragment_profile_name=0x7f080024;
+        public static final int conmono_enter_button=0x7f080009;
+        public static final int conmono_image_for_process=0x7f08000d;
         public static final int facebook_login_button=0x7f08000a;
+        public static final int glitch_button=0x7f08000f;
         public static final int hybrid=0x7f080004;
-        public static final int image=0x7f08000d;
-        public static final int imageButton2=0x7f080009;
         public static final int imageView=0x7f08000b;
         public static final int imageView2=0x7f080008;
         public static final int large=0x7f080006;
-        public static final int linearLayout=0x7f08000f;
-        public static final int map=0x7f080027;
+        public static final int linearLayout=0x7f08000e;
+        public static final int map=0x7f080026;
         public static final int mono_logo=0x7f080007;
         public static final int none=0x7f080000;
         public static final int normal=0x7f080001;
-        public static final int picker_subtitle=0x7f080023;
+        public static final int picker_subtitle=0x7f080022;
         public static final int preview_camera_fragment=0x7f08000c;
         public static final int preview_camera_view=0x7f080028;
+        public static final int relativeLayout=0x7f080027;
         public static final int satellite=0x7f080002;
-        public static final int search_box=0x7f080022;
+        public static final int search_box=0x7f080021;
         public static final int shutter_button=0x7f080029;
         public static final int small=0x7f080005;
         public static final int terrain=0x7f080003;
-        public static final int view=0x7f08000e;
+        public static final int text=0x7f080010;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
@@ -577,22 +578,23 @@ containing a value of this type.
         public static final int facebook_login_button_label=0x7f0a0034;
         public static final int facebook_logout_button_label=0x7f0a0035;
         public static final int google_maps_api_key=0x7f0a0036;
+        public static final int msg=0x7f0a0037;
         /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings_activity_settings.xml 
          */
-        public static final int pref_description_enabled_option=0x7f0a0037;
-        public static final int pref_header_data_sync=0x7f0a0038;
-        public static final int pref_header_general=0x7f0a0039;
-        public static final int pref_title_enabled_option=0x7f0a003a;
-        public static final int pref_title_sync_frequency=0x7f0a003b;
+        public static final int pref_description_enabled_option=0x7f0a0038;
+        public static final int pref_header_data_sync=0x7f0a0039;
+        public static final int pref_header_general=0x7f0a003a;
+        public static final int pref_title_enabled_option=0x7f0a003b;
+        public static final int pref_title_sync_frequency=0x7f0a003c;
         /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings.xml 
          */
-        public static final int shutter_button=0x7f0a003c;
-        public static final int title_activity_photos_map=0x7f0a003d;
-        public static final int title_activity_preview_camera=0x7f0a003e;
-        public static final int title_activity_process_image=0x7f0a003f;
+        public static final int shutter_button=0x7f0a003d;
+        public static final int title_activity_photos_map=0x7f0a003e;
+        public static final int title_activity_preview_camera=0x7f0a003f;
+        public static final int title_activity_process_image=0x7f0a0040;
         /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/strings_activity_settings.xml 
          */
-        public static final int title_activity_settings=0x7f0a0040;
+        public static final int title_activity_settings=0x7f0a0041;
     }
     public static final class style {
         /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/styles.xml 
@@ -615,6 +617,9 @@ containing a value of this type.
          */
         public static final int com_facebook_loginview_default_style=0x7f0b0003;
         public static final int com_facebook_loginview_silver_style=0x7f0b0004;
+        /**  From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/values/styles.xml 
+         */
+        public static final int conmono_border=0x7f0b0005;
     }
     public static final class xml {
         public static final int pref_data_sync=0x7f050000;

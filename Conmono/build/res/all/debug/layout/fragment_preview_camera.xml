@@ -1,28 +1,38 @@
-<?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:tools="http://schemas.android.com/tools"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-        >
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:orientation="vertical"
+                android:background="@color/cl_returnvoid_mypic_grey">
 
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="7dp"
+        android:id="@+id/relativeLayout">
 
     <view
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             class="cl.returnvoid.android.conmono.fragments.PreviewCameraFragment$PreviewCamera"
             android:id="@+id/preview_camera_view"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"/>
+
+            />
+
+</RelativeLayout>
 
     <Button
-            android:layout_width="74dp"
-            android:layout_height="74dp"
-            android:id="@+id/shutter_button"
-            android:layout_centerVertical="true"
-            android:layout_centerHorizontal="true"
-            android:background="@drawable/conmono_yellow_button"/>
+android:layout_width="74dp"
+android:layout_height="74dp"
+android:id="@+id/shutter_button"
+android:background="@drawable/conmono_yellow_button"
+android:layout_centerVertical="true"
+android:layout_centerHorizontal="true"/>
 
 </RelativeLayout><!-- From: file:/Users/malamute/AndroidStudioProjects/Conmono/Conmono/src/main/res/layout/fragment_preview_camera.xml -->
