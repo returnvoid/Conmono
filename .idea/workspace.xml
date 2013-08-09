@@ -29,21 +29,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cf84a4f-86cd-4b50-b7ba-1d420a2df6c0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Conmono/src/main/res/drawable-hdpi/conmono_shutter_button.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java" afterPath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java" afterPath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java" afterPath="$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/source/r/debug/cl/returnvoid/android/conmono/R.java" afterPath="$PROJECT_DIR$/Conmono/build/source/r/debug/cl/returnvoid/android/conmono/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/source/r/debug/com/facebook/android/R.java" afterPath="$PROJECT_DIR$/Conmono/build/source/r/debug/com/facebook/android/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_process_image.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/activity_process_image.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_process_image.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/layout/activity_process_image.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/fragment_preview_camera.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/layout/fragment_preview_camera.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/layout/fragment_preview_camera.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/Conmono/src/main/res/values/styles.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Conmono/build/res/all/debug/values/values.xml" afterPath="$PROJECT_DIR$/Conmono/build/res/all/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Conmono.iws" />
@@ -129,7 +114,7 @@
       <file leaf-file-name="PreviewCameraActivity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/PreviewCameraActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="63" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="1035">
+            <state line="40" column="63" selection-start="1721" selection-end="1721" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1290">
               <folding />
             </state>
           </provider>
@@ -138,14 +123,8 @@
       <file leaf-file-name="PreviewCameraFragment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="255" column="0" selection-start="9410" selection-end="9410" vertical-scroll-proportion="0.0" vertical-offset="2689" max-vertical-offset="3675">
-              <folding>
-                <element signature="e#4629#5664#0" expanded="true" />
-                <element signature="e#5005#5342#0" expanded="true" />
-                <element signature="e#5311#5312#0" expanded="true" />
-                <element signature="e#5649#5650#0" expanded="true" />
-                <element signature="e#8317#8380#0" expanded="true" />
-              </folding>
+            <state line="255" column="0" selection-start="9410" selection-end="9410" vertical-scroll-proportion="0.0" vertical-offset="3810" max-vertical-offset="4290">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -153,11 +132,8 @@
       <file leaf-file-name="ProcessImageActivity.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="272" column="3" selection-start="10098" selection-end="10098" vertical-scroll-proportion="0.46362516" vertical-offset="3104" max-vertical-offset="3915">
-              <folding>
-                <element signature="e#2419#2571#0" expanded="true" />
-                <element signature="e#2560#2561#0" expanded="true" />
-              </folding>
+            <state line="272" column="3" selection-start="10098" selection-end="10098" vertical-scroll-proportion="0.67507887" vertical-offset="2549" max-vertical-offset="3840">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -177,7 +153,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Conmono/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="27" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+            <state line="19" column="27" selection-start="914" selection-end="914" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -320,8 +296,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -696,6 +670,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -715,11 +691,11 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="AVD_for_Nexus_One_by_Google" />
     <property name="OverrideImplement.overriding.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -908,7 +884,11 @@
       <created>1375832590104</created>
       <updated>1375832590104</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="07-08-13">
+      <created>1375921946929</created>
+      <updated>1375921946929</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -939,13 +919,11 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35162288" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35108024" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3995363" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32961783" sideWeight="0.64528596" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843894" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -959,6 +937,8 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33041403" sideWeight="0.64528596" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32998455" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843894" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1004,7 +984,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="06-08-13" />
+    <option name="LAST_COMMIT_MESSAGE" value="07-08-13" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1020,6 +1000,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="05-08-13" />
     <MESSAGE value="06-08-13" />
+    <MESSAGE value="07-08-13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1113,13 +1094,7 @@
     <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/fragments/PreviewCameraFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="255" column="0" selection-start="9410" selection-end="9410" vertical-scroll-proportion="0.0" vertical-offset="2689" max-vertical-offset="3675">
-          <folding>
-            <element signature="e#4629#5664#0" expanded="true" />
-            <element signature="e#5005#5342#0" expanded="true" />
-            <element signature="e#5311#5312#0" expanded="true" />
-            <element signature="e#5649#5650#0" expanded="true" />
-            <element signature="e#8317#8380#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1142,18 +1117,13 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/sdk/platforms/android-17/android.jar!/android/graphics/Bitmap.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="102" selection-start="4844" selection-end="4844" vertical-scroll-proportion="0.42663378" vertical-offset="1169" max-vertical-offset="1980">
-          <folding />
-        </state>
+        <state line="102" column="102" selection-start="4844" selection-end="4844" vertical-scroll-proportion="0.42663378" vertical-offset="1169" max-vertical-offset="1980" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Conmono/src/main/java/cl/returnvoid/android/conmono/ProcessImageActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="272" column="3" selection-start="10098" selection-end="10098" vertical-scroll-proportion="0.46362516" vertical-offset="3104" max-vertical-offset="3915">
-          <folding>
-            <element signature="e#2419#2571#0" expanded="true" />
-            <element signature="e#2560#2561#0" expanded="true" />
-          </folding>
+        <state line="272" column="3" selection-start="10098" selection-end="10098" vertical-scroll-proportion="0.67507887" vertical-offset="2549" max-vertical-offset="3840">
+          <folding />
         </state>
       </provider>
     </entry>
