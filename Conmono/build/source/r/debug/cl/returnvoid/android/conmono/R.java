@@ -385,7 +385,8 @@ containing a value of this type.
         public static final int conmono_logotipo=0x7f020038;
         public static final int conmono_shutter_button=0x7f020039;
         public static final int conmono_yellow_button=0x7f02003a;
-        public static final int ic_launcher=0x7f02003b;
+        public static final int frame1=0x7f02003b;
+        public static final int ic_launcher=0x7f02003c;
     }
     public static final class id {
         public static final int action_settings=0x7f08002a;

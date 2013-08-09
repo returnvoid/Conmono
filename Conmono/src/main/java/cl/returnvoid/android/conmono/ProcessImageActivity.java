@@ -13,6 +13,7 @@ import android.graphics.Paint;
 import android.graphics.PorterDuff;
 import android.graphics.PorterDuffColorFilter;
 import android.graphics.PorterDuffXfermode;
+import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.media.MediaScannerConnection;
@@ -34,6 +35,7 @@ import android.widget.ImageView;
 
 import java.io.File;
 import java.io.FileOutputStream;
+import java.util.Random;
 
 public class ProcessImageActivity extends Activity {
     public static final String PROCESS_IMAGE_ACTIVITY = "PROCESS_IMAGE_ACTIVITY";
@@ -253,11 +255,13 @@ public class ProcessImageActivity extends Activity {
         }
 
         public Bitmap glitch(Bitmap bm) {
-            Bitmap bitmapFinal = bm.copy(Bitmap.Config.ARGB_8888, true);
-            int[] pixels = new int[bitmapFinal.getWidth() * bitmapFinal.getHeight()];
+            int MARGIN = 30;
+            int OFFSET = 3;
+            Bitmap bitmapOriginal = bm.copy(Bitmap.Config.ARGB_8888, true);
+            int[] pixels = new int[bitmapOriginal.getWidth() * bitmapOriginal.getHeight()];
             int k = 0;
-            for (int i = 0; i < bitmapFinal.getWidth(); i++) {
-                for (int j = 0; j < bitmapFinal.getHeight(); j++, k++) {
+            for (int i = 0; i < bitmapOriginal.getWidth() - 60; i++) {
+                for (int j = 0; j < bitmapOriginal.getHeight() - 60; j++, k++) {
                     int pixel = bm.getPixel(i, j);
                     int red = Color.red(pixel);
                     if (red > 100) {
@@ -268,9 +272,26 @@ public class ProcessImageActivity extends Activity {
                 }
             }
 
-            Bitmap bitmap = Bitmap.createBitmap(pixels, 0, bitmapFinal.getWidth(), bitmapFinal.getWidth(), bitmapFinal.getHeight(), Bitmap.Config.RGB_565);
+            Paint paint = new Paint();
+            paint.setColorFilter(new PorterDuffColorFilter(Color.RED, PorterDuff.Mode.OVERLAY));
+            paint.setColorFilter(new PorterDuffColorFilter(Color.GREEN, PorterDuff.Mode.SCREEN));
+            paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.SCREEN));
 
-            return bitmap;
+            Canvas canvas = new Canvas(bitmapOriginal);
+            Rect rect = new Rect(MARGIN + OFFSET, MARGIN + OFFSET, bitmapOriginal.getWidth() - MARGIN, bitmapOriginal.getHeight() - MARGIN);
+            canvas.drawBitmap(bitmapOriginal, rect, rect, paint);
+
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inPreferredConfig = Bitmap.Config.ARGB_8888;
+            Bitmap frame = BitmapFactory.decodeResource(getResources(), R.drawable.frame1, options);
+
+            paint.setColorFilter(new PorterDuffColorFilter(Color.BLACK, PorterDuff.Mode.CLEAR));
+            paint.setXfermode(new PorterDuffXfermode(PorterDuff.Mode.MULTIPLY));
+            //canvas.drawBitmap(frame, 0, 0, null);
+
+            //Bitmap bitmap = Bitmap.createBitmap(pixels, 0, bitmapOriginal.getWidth(), bitmapOriginal.getWidth(), bitmapOriginal.getHeight(), Bitmap.Config.RGB_565);
+
+            return bitmapOriginal;
         }
     }
 
